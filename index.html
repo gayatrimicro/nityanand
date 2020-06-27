@@ -41,6 +41,8 @@
 <script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.flexslider-min.js?ver=3.5'></script>
 <script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.fitvids.js?ver=3.5'></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <style type="text/css">
 .recentcomments a {
 	display:inline !important;
@@ -282,17 +284,129 @@ Tungareshwar parvat... Trustee Sandhya Jadhav offering a Shawl and Sandals on ha
     </div>
   </div>
 
-
-
-
-
-
-
- 
-  
-  
 </div> -->
 <!-- <p>&nbsp;</p> -->
+<style type="text/css">
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  background: url(wp-content/themes/nityanand/images/bg.jpg) #1a1109 repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: #ccb298;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ccb298;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-text{
+  font-family: 'Lato', serif;
+    color: #ccb298 !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    text-transform: none !important; 
+    margin-bottom: 2rem !important;
+
+}
+</style>
+
+<section>
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="tagline" style="padding: 22px 65px 33px 65px">
+
+    <h2 class="modal-text">भाविकांना कळविण्यात येते की, 
+गुरूपौर्णिमा उत्सवानिमित्त परंपरेनुसार साजरा होणारा अखंड नामस्मरण सप्ताह ह्यावर्षी शासनाच्या आदेशानुसार  लाॅकडाऊन  असल्याने 
+रद्द करण्यात येत आहे.  मंदिर व्यवस्थापन ह्याबाबत दिलगिरी व्यक्त करीत आहे.  
+
+तरी भाविकांनी व ग्रामस्थांनी ह्या बाबत सहकार्य करावे. 
+घरी रहा. सुरक्षित रहा.<br>
+
+....
+विश्वस्त मंडळ 
+श्री भि स नित्यानंद संस्था
+ गणेशपुरी</h2>
+
+ <h2 class="modal-text">
+Respected All Devotees Of GURU NITYANANDA,<br>
+
+As the uninterrupted remembrance week, which is traditionally celebrated on the occasion of Guru Pournima ( Akhand Namsmaran Saptah) is cancelled due to Lockdown Order Of State Government. 
+The Temple Management is apologising for this.<br>
+
+All the Devotees and Villagers are humbly requested to cooperate in this Pandemic Situation. <br>
+
+Stay Home. Stay Safe.
+
+We Pray to Baba for the WELFARE OF UNIVERSE. <br>
+
+    ....
+Board of Trustees 
+S. B. S. Nityanand  Sanstha
+Ganeshpuri<br></h2> <h2 class="modal-text">
+
+
+
+
+ However, devotees and villagers should cooperate in this regard.
+ Stay home  Stay safe.<br>
+
+ ....
+ Board of Trustees
+ Shri B.S. Nityananda Sanstha
+  Ganeshpuri</h2>
+  </div>
+  </div>
+
+</div>
+</section>
+
+
+<script type="text/javascript">
+  
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+$( document ).ready(function(){  
+// alert("demo");      
+   $('.modal').css("display","block");
+    }); 
+$( ".close" ).click(function() {
+   $('.modal').css("display","none");
+   
+
+});
+</script>
 
 <footer>
   <div class="container">
