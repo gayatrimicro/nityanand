@@ -1,0 +1,9 @@
+BODY {
+	BACKGROUND-IMAGE: url(../images/bodyBgGallery.jpg)
+}
+#bodyContainer {
+	BACKGROUND: url(../images/bodyContentTopwithoutSearch.jpg) no-repeat left top
+}
+#pageHeader {
+	BACKGROUND-IMAGE: url(../images/headerGallery.jpg)
+}

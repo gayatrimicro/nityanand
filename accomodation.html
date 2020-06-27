@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Nityananda</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+  ================================================== -->
+<link rel="stylesheet" href="wp-content/themes/nityanand/stylesheets/base.css">
+<link rel="stylesheet" href="wp-content/themes/nityanand/stylesheets/skeleton.css">
+<link rel="stylesheet" href="wp-content/themes/nityanand/stylesheets/btn.css">
+<link rel="stylesheet" href="wp-content/themes/nityanand/stylesheets/flexslider.css">
+<link rel="stylesheet" href="wp-content/themes/nityanand/stylesheets/superfish.css">
+<link rel="stylesheet" href="wp-content/themes/nityanand/stylesheets/prettyPhoto.css">
+<link rel="stylesheet" href="wp-content/themes/nityanand/js/jPlayer/css/style.css">
+<link rel="stylesheet" href="wp-content/themes/nityanand/style.css" type="text/css" media="screen" />
+
+<!-- Google Fonts -->
+
+<link href='http://fonts.googleapis.com/css?family=Copse|Courgette|Oswald:400,300,700|Droid+Serif:400,700,400italic,700italic|Droid+Sans:400,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- Favicons================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='taxonomy-image-plugin-public-css'  href='wp-content/plugins/taxonomy-images/style.css?ver=0.7.3' type='text/css' media='screen' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='wp-content/themes/nityanand/js/script.js?ver=3.5'></script>
+<script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.prettyPhoto.js?ver=3.5'></script>
+<script type='text/javascript' src='wp-content/themes/nityanand/js/jPlayer/js/jquery.jplayer.min.js?ver=3.5'></script>
+<script type='text/javascript' src='wp-content/themes/nityanand/js/superfish.js?ver=3.5'></script>
+<script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.flexslider-min.js?ver=3.5'></script>
+<script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.fitvids.js?ver=3.5'></script>
+<style type="text/css">
+.recentcomments a {
+	display:inline !important;
+	padding:0 !important;
+	margin:0 !important;
+}
+</style>
+
+<!--[if IE 8]>
+<style type="text/css">
+   
+   .button-big, .button-small, .portfolio_cats a, .pagination a, .pagination .current, .portfolio_previous a, .portfolio_next a  { color: #fff !important; }
+   .main ul li a .description { font-size: 12px; }
+   
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<style type="text/css">
+   
+	 .button-big, .button-small, .portfolio_cats a, .pagination a, .pagination .current, .portfolio_previous a, .portfolio_next a  { color: #fff !important; }
+   .main ul li a .description { font-size: 12px; }
+    
+   }
+   
+</style>
+<![endif]-->
+
+<!--[if IE 6]>
+<style type="text/css">
+   
+	 .button-big, .button-small, .portfolio_cats a, .pagination a, .pagination .current, .portfolio_previous a, .portfolio_next a  { color: #fff !important; }
+   .main ul li a .description { font-size: 12px; }
+   }
+   
+</style>
+<![endif]-->
+
+<style>
+.pageContent a {
+ color:;
+}
+.pageContent a:hover {
+ color:;
+}
+</style>
+<link rel="stylesheet" href="colorbox.css">
+		<script src="jquery_002.js"></script>
+		<script src="jquery.js"></script>
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+</head>
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50" class="home blog">
+<header>
+  <div class="navBg"></div>
+  <div class="container">
+    <div class="logo"><a href="index.html"><img src="files/logo.png" /></a></div>
+    <nav class="mainNav">
+      <ul id="menu-main" class="nav sf-menu sf-js-enabled sf-shadow">
+        <li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page" style="margin-left:0px"><a href="history.html"><span class="title">The Temple</span></a>
+         <ul class="sub-menu">
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="history.html">History</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="daily.html">Daily Schedule</a></li>
+             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="poojan.html">Poojan</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="trustees.html">Trustees</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="ganeshpuri.html">About Ganeshpuri</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="performance-report.html">Performance Report</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="near.html">Near the Temple</a></li>
+       <!--      <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="green-revolution.html">Green Revolution </a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="women-empowerment.html">Women's Empowerment</a></li> -->
+          </ul>
+        </li>
+        <li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-26 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor"><a href="accomodation.html"><span class="title">Facilities & Accomodations</span></a>
+        <ul class="sub-menu">
+          
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="accomodation.html">Accommodations</a></li>
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="refreshment.html">Refreshment Units</a></li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="medical.html">Medical Facility</a></li>
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="basics.html">Basics</a></li>
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Ambience</a></li>
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="activity.html">Festivals
+</a></li>
+         
+          </ul>
+        </li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="about.html"><span class="title">About Baba</span></a>
+          <ul class="sub-menu">
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">Biography</a></li>
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="spiritual.html">Socio-Spiritual Work</a></li>
+            <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="sage.html">The Sage of Ganeshpuri</a></li>
+           
+          </ul>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="gallery.html"><span class="title">Gallery</span></a></li>
+        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="donate.html"><span class="title">Donate</span></a></li>
+        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="contact.html"><span class="title">Contact</span></a></li>
+      </ul>
+      <div class="container mobileNav">
+        <div class="sixteen columns"></div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="topModule clearfix">
+  <div class="container headerImg"> <img alt="" src="images/accommodation.jpg" /> </div>
+  
+  <div class="container pageContent clearfix">
+    <div>
+      <div class="three columns">
+        <ul class="subNavItems">
+          <li><a href="accomodation.html" style="text-transform:uppercase">Accommodations</a></li>
+          <li><a href="refreshment.html" style="text-transform:uppercase">Refreshment Units</a></li>
+          <li><a href="medical.html" style="text-transform:uppercase">Medical Facility</a></li>
+          <li><a href="basics.html" style="text-transform:uppercase">Basics</a></li>
+          <li><a href="ambiance.html" style="text-transform:uppercase">Ambience</a></li>
+          <li><a href="activity.html" style="text-transform:uppercase">The Children's Programme and Activities</a></li>
+        </ul>
+      </div>
+      <div class="thirteen columns" style="width:770px">
+      
+            <h3>Accommodations</h3>
+            <div class="noPic">
+              <p style="margin-bottom:10px;">Six Buildings are maintained by the Sanstha to provide accommodation for visiting devotes. The
+                charges vary for different types of room/facilities. Please see room reservation page.
+                For the convenience of the pilgrims, the Sanstha offers  Rented 
+                Accommodation. However on special occasions like gurupurnima some halls and school are provided as free accommodation. In addition tents, shamianas and proposed a/c suits are also put up. <br>
+                <br>
+              </p>
+              <p style="margin-bottom:5px;"><font color="#EF7837">Free Accommodation</font>
+              <p style="margin-bottom:10px;"> In deserving cases  Banglore wala hall on the ground floor is provided free; waving the Rs.400/- daily charge. In case of great necessity devotees may be allowed to sleep at night in the big Balbhojan Hall. Tents and Shamianas are put up if necessary for big celebration like Gurupurnima. On such occasion night stay in permitted to poor people in school rooms also. <br>
+                <br>
+              </p>
+              <p style="margin-bottom:5px;"><font color="#EF7837"> Accommodation Gallery</font>
+              <p style="margin-bottom:10px;"> 
+              <a class="group1 cboxElement" href="img/big/1a.jpg" title=""><img src="img/small/1.jpg" width="242" height="164" style="margin-right:3px"></a>
+		<a class="group1 cboxElement" href="img/big/2a.jpg" title=""><img src="img/small/2.jpg" width="242" height="164" style="margin-right:3px"></a>
+		<a class="group1 cboxElement" href="img/big/3a.jpg" title=""><img src="img/small/3.jpg" width="242" height="164"></a>
+         <a class="group1 cboxElement" href="img/big/4a.jpg" title=""><img src="img/small/4.jpg" width="242" height="164" style="margin-right:3px"></a>
+		<a class="group1 cboxElement" href="img/big/5a.jpg" title=""><img src="img/small/5.jpg" width="242" height="164" style="margin-right:3px"></a>
+		<a class="group1 cboxElement" href="img/big/6a.jpg" title=""><img src="img/small/6.jpg" width="242" height="164"></a> 
+                <br><br>
+              </p>
+<p style="margin-bottom:10px;"><font color="#EF7837">Rented Accommodation</font></p>
+<table width="100%" border="0" cellpadding="2" cellspacing="3">
+                <tr>
+                  <td width="29%" height="47" align="left" valign="middle" style="vertical-align: middle" bgcolor="#5B3816"><strong>
+					<font color="#FFFFFF">&nbsp; Name of Building</font></strong></td>
+                  <td width="32%" align="left" valign="middle" style="vertical-align: middle" bgcolor="#5B3816"><strong> 
+					<font color="#FFFFFF">Room Number</font></strong></td>
+                  <td width="17%" align="left" valign="middle" style="vertical-align: middle" bgcolor="#5B3816"><strong>
+					<font color="#FFFFFF">Rent</font></strong></td>
+                  <td width="22%" align="left" valign="middle" style="vertical-align: middle" bgcolor="#5B3816"><strong>
+					<font color="#FFFFFF">Deposit</font></strong></td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5" style="vertical-align: middle">&nbsp;<strong> Banglorewala Building</strong></td> 
+                  <td bgcolor="#E9E7E5">All Rooms<br>
+21, 22, 23, 24
+</td>
+                  <td bgcolor="#E9E7E5">100<br>
+                  200</td>
+                  <td bgcolor="#E9E7E5">100<br>
+                    200</td>
+                </tr>
+                <tr>
+                  <td height="38" style="vertical-align: middle">&nbsp;<strong> Nityanand Krupa</strong></td>
+                  <td style="vertical-align: middle">All Rooms</td>
+                  <td style="vertical-align: middle">250</td>
+                  <td style="vertical-align: middle">250</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5" style="vertical-align: middle">&nbsp;<strong>  Nityanand Jyoti</strong></td>
+                  <td bgcolor="#E9E7E5">All Rooms<br>
+1, 5, 9
+</td>
+                  <td bgcolor="#E9E7E5">300<br>
+                  700</td>
+                  <td bgcolor="#E9E7E5">300<br>
+                    1000 [VIP ROOM]</td>
+                </tr>
+                <tr>
+                  <td height="38" style="vertical-align: middle">&nbsp;<strong>Nityanand Smruti</strong></td>
+                  <td style="vertical-align: middle"> All Rooms</td>
+                  <td style="vertical-align: middle">250</td>
+                  <td style="vertical-align: middle">250</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5" height="38" style="vertical-align: middle">&nbsp;<strong>   Nityanand Prasad</strong></td>
+                  <td bgcolor="#E9E7E5" height="24" style="vertical-align: middle">All Rooms</td>
+                  <td bgcolor="#E9E7E5" height="24" style="vertical-align: middle">500</td>
+                  <td bgcolor="#E9E7E5" height="24" style="vertical-align: middle">500</td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: middle">&nbsp;<strong>  Nityanand Chayya</strong></td>
+                  <td>
+2, 3, 4, 5<br>
+6, 7, 8
+</td>
+                  <td>1200<br>
+                  1500</td>
+                  <td>1000 Small Room [A/C] <br>
+                    1000 Big Room [A/C] </td>
+                </tr>
+                <tr>
+                  <td height="18" bgcolor="#E9E7E5" style="vertical-align: middle">&nbsp;<strong>   Nityanand Pratibha</strong></td>
+                  <td height="18" bgcolor="#E9E7E5"><strong>1st Floor</strong></td>
+                  <td height="18" bgcolor="#E9E7E5">&nbsp;</td>
+                  <td height="18" bgcolor="#E9E7E5">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                  <td bgcolor="#E9E7E5">  1, 2, 3, 4, 5<br>
+6 To 15
+
+</td>
+                  <td bgcolor="#E9E7E5">                   
+                    1200<br>
+                    1000</td>
+                  <td bgcolor="#E9E7E5">                    1000 Big Room [A/C]<br>
+                   
+                    1000 Small Room [A/C]</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                  <td bgcolor="#E9E7E5"><strong>2nd Floor</strong></td>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                  <td bgcolor="#E9E7E5">16, 17, 18, 19, 20<br>
+21 To 30
+</td>
+                  <td bgcolor="#E9E7E5">1200<br>
+                  1000</td>
+                  <td bgcolor="#E9E7E5">1000 Big Room [A/C]<br>
+1000 Small Room [A/C]
+</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                  <td bgcolor="#E9E7E5"><strong>3rd Floor</strong></td>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td bgcolor="#E9E7E5">&nbsp;</td>
+                  <td bgcolor="#E9E7E5">31, 32, 33, 34, <br>
+35 To 44
+</td>
+                  <td bgcolor="#E9E7E5">700<br>
+                  500</td>
+                  <td bgcolor="#E9E7E5">1000 Big Room [Non A/c] <br>
+500   Small Room [Non A/c]
+</td>
+                </tr>
+              </table></a></p>
+            </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="four columns">
+      <div class="churchLocation clearfix">
+        <h3 class="locationIcon">OUR LOCATION</h3>
+        <div class="churchInfoDetails"><span></span> <span>At Post - Ganeshpuri, Tal-Bhiwandi</span><span>Dist. Thane, Pin - 401 206. </span> <span>Maharashtra. INDIA.</span><!-- <span>Rakesh Yadav (Chief Manager & PRO)</span> --><span>Office: 7770015715 <br> Reception: 7770015717</span></div>
+      </div>
+    </div>
+    <div class="twelve columns">
+      <h3>BHAGWAN NITYANAND</h3>
+      <img alt="" style="float: left; margin: 15px 20px 20px 0;" src="images/assets/1.png" />
+      <p style="margin-top: 35px;">The great guru Swami Nityanand sanctified Ganeshpuri. The place is so beautiful - so tranquil and serene that as soon as you enter the temple you feel the world slipping away and calm &amp; serenity descending on you.</p>
+      <p><b>Nitya-Eternal, Ananda-Bliss</b> - Eternal Bliss took a body and was known as Bhagwan Nityanand.</p>
+    </div>
+  </div>
+</footer>
+<div class="smallFooter">
+  <div class="container">
+    <div class="eight columns smallFooterLeft">SHREE BHIMESHWAR SADGURU NITYANAND SANSTHA 2013. ALL RIGHTS RESERVED.</div>
+    <div class="eight columns smallFooterRight">RESPONSIVE WEB DESIGN BY <a href="http://gayatrimicrosystems.com" target="blank"> Gayatri Microsystems</a></div>
+  </div>
+</div>
+<script type="text/javascript">
+ 
+    jQuery(window).load(function(){
+      jQuery('.flexslider').flexslider({
+        animation: "fade",
+        controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+directionNav: true, 
+slideshow: false,
+        start: function(slider){
+          jQuery('body').removeClass('loading');
+        }
+      });
+	    subNav();
+	  
+	  
+    });
+	  
+
+  </script> 
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.18'></script> 
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.1'></script> 
+<script type='text/javascript' src='wp-includes/js/hoverIntent.min.js?ver=r6'></script>
+</body>
+</html>

@@ -1,0 +1,2281 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+
+body.destinations {    
+    background: #ffffff url(../strucimages/destinationsBg.jpg) no-repeat top center;
+}
+body.destinationsSub {    
+    background: #ffffff url(../strucimages/destinationsSubBg.jpg) no-repeat top center;
+}
+body.experiences
+{    
+    background: #ffffff url(../strucimages/experiencesBg.jpg) no-repeat top center;
+}
+
+p {
+  position:relative;
+}
+
+
+form {
+    padding:0;
+    margin:0;
+}
+input { position:relative;}
+img { border:none; }
+
+option {
+    padding:0 0 0 2px;
+    margin:0;
+}
+
+h1.logo {
+    margin:0;
+    padding:0;
+    width:138px;
+    height:60px;
+    background: url(../strucimages/logo.gif) no-repeat;
+}
+h1.logo span {
+    display:none;
+}
+
+.generalInfoMain h3 {
+    font-size:11px;
+}
+
+/* ---------- Page Titles ----------*/
+#mainContent.homeMain h3.titleOne {
+    color:#9f2c11;    
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+#mainContent.homeMain h3.titleTwo {
+    color:#004b7b;
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+#mainContent.eventsMain h3.titleOne {
+    color:#861c15;
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+}
+
+#mainContent.eventsMain h3.titleTwo {
+    color:#861c15;
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+}
+
+#mainContent.planHolMain h3.titleOne {
+    color:#000000;
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+}
+#mainContent.planHolMain h3.titleTwo {
+    color:#000000;
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+}
+
+
+#mainContent h2.title {
+    color:#000000;
+    font-size:1.40em;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+}
+
+#mainContent.aboutMain h2.title {
+    color:#010101;
+}
+
+#mainContent.experiencesMain h2.title {
+    color:#a32516;
+}
+
+#mainContent.destinationMain h2.title {
+    color:#004b7b;
+}
+
+#mainContent.eventsMain h2.title {
+    color:#861c15;
+}
+
+#mainContent.planHolMain h2.title {
+    color:#000000;
+}
+
+#mainContent.generalInfoMain h2.title {
+    color:#01467c;
+}
+
+#mainContent h3.title {
+    color:#000000;
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+#mainContent.experiencesMain .threeColSubColumn h3.titleDarkRed {
+    color:#6a0e03;
+    font-size:1.08em;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+#mainContent.experiencesMain .threeColSubColumn h3.title {
+    color:#a32516;
+    font-size:1.08em !important;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+
+/* ---------- END:Page Titles ----------*/
+
+h2.blue {
+    color:#01467c;
+    font-size:1.32em;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+}
+h2.darkBrown {
+    color:#2c0e00;
+    font-size:1.32em;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+}
+h2.darkGrey {
+    color:#010101;
+    font-size:1.32em;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+}
+.smallText {
+    font-size:0.88em !important;
+}
+.experiencesMain {
+    padding-top:78px;
+    background: #FFFFFF url(../strucimages/experiencesContentBg.gif) repeat-y;
+}
+.destinationMain {
+    background: #FFFFFF url(../strucimages/destinationsContentBg.gif);
+}
+.aboutMain {
+    background: #FFFFFF url(../strucimages/aboutContentBg.gif);
+    padding-top:80px;
+}
+.eventsMain {
+    background: #FFFFFF url(../strucimages/eventsContentBg.gif);
+}
+
+.agentMain {
+    background: #FFFFFF url(../strucimages/agentContentBg.gif);
+}
+.accommodationMain {
+    background: #FFFFFF url(../strucimages/mainContentShortBg.gif);
+}
+.accommodation1Main {
+    background: #FFFFFF url(../strucimages/mainContentShortBg.gif);
+	padding-top:80px;
+}
+
+.brownBottomBorder {
+    border-bottom:3px solid #321507;
+}
+.headerHolder {
+    width:500px;
+    overflow:hidden;
+    margin:0;
+    padding:10px 0 0 5px;
+}
+a.printLink, a.printLink:link {    
+    padding:0 0 0 13px;
+    margin:0;
+    color:#2c0e00;
+    font-size:0.85em;
+    text-decoration:underline;
+    background: url(../strucimages/printIcon.gif) no-repeat left center;
+    position: relative;
+}
+a.thickbox {
+    position:relative;
+}
+#navReflection {
+    width:958px;
+    height:41px;
+    overflow:hidden;
+    position:relative;
+    left:-6px;
+    background: url(../strucimages/mainNavReflection.jpg) repeat-y;
+    margin:0 auto;
+}
+
+#imageReflection {
+    height:31px;
+    margin:0 auto;
+    padding:0;
+    width:998px;   
+    background:transparent url(../strucimages/bannerShadowDestinationSub.jpg) no-repeat scroll 0 0;
+}
+
+#itineraryReflection {
+    width:999px;
+    height:31px;
+    overflow:hidden;
+    background: url(../strucimages/itinieraryReflection.jpg) repeat-y;
+}
+
+.threeColSubColumn {
+    float:left;
+    width:313px;
+    overflow:hidden;
+}
+.lightBlue {
+    color:#d5ecff;
+    font-size:1.00em;
+}
+img.imgRight {
+    padding:0 0 10px 0;
+    float:right;
+}
+img.imgLeft {
+    padding: 0 10px 10px 0;
+}
+.placeable {
+    position:absolute;
+    z-index:300;
+}
+.clear {
+    clear:both;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.floatLeft {
+    float:left;
+}
+.textLeft {
+    text-align:left;
+}
+.floatRight {
+    float:right;
+}
+.strong {
+    font-weight:bold;
+}
+.textRight {
+    text-align:right;
+}
+.blueArea {
+    width:257px;
+    overflow:hidden;
+}
+.sideMapHolder {
+    width:251px;
+    overflow:hidden;
+}
+
+/*START: Charcoal Area*/
+
+.charcoalArea {
+    width:223px;
+    overflow:hidden;
+    padding:10px 20px 5px 15px;
+    _padding:10px 19px 5px 15px;
+    background:url(../strucimages/charcoalBg.png) repeat-y;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/charcoalBg.png',sizingMethod='scale');
+}
+
+/*END: Charcoal Area*/
+
+.destinationMain * html .charcoalArea { /*fix for IE6 */
+    width:236px;
+}
+
+.charcoalArea p {
+    margin:0;
+    padding:5px 0;
+    color:#ffffff;
+    line-height:1.50em;
+    font-size:1.00em;
+}
+.charcoalBottom {
+    clear:both;
+    width:212px;
+    height:19px;
+    z-index:300;
+    text-align:right;
+    padding:20px 45px 0px 0px
+}
+
+.charcoalBottom a {    
+    position:relative;
+}
+
+.charcoalBottom a:link {    
+    position:relative;
+}
+
+.brownTopBar {    
+    overflow:hidden;
+    color:#ffffff;
+    font-weight:bold;
+    padding:8px 20px 3px 0px;
+    width:237px;
+}
+
+.brownTopBar p {    
+    margin:0;
+    font-size:1.10em;
+    padding:2px 0px 5px 15px;
+}
+.brownTopBar p.selectHolder {
+    margin:0;
+    padding:2px 0px 5px 15px;
+    font-size:1.00em;
+}
+
+.brownTopBar select {
+    position:relative;
+    clear:both;
+    border:none;
+    margin:6px 0px 4px 0px;
+    width:157px;
+    font-size:1.00em !important;
+    padding:2px 1px 2px 2px;
+    height:19px;
+}
+
+.brownTopBar p.arrow {
+	margin:0 0 0 15px;
+	padding:2px 0 2px 15px;
+	font-size:1.1em;
+	background: url(../strucimages/whiteArrowbluebg.gif) no-repeat left center;
+}
+.maroonTopBar {
+    width:237px;
+    overflow:hidden;
+    color:#ffffff;
+    font-weight:bold;
+    padding:8px 20px 3px 0px;
+}
+.maroonTopBar p {
+    margin:0;
+    padding:2px 0px 5px 15px;
+    font-size:1.10em;
+}
+.maroonTopBar p a {
+    color:#ffffff;
+    text-decoration:underline;
+}
+.maroonTopBar p a:hover {
+     text-decoration:none;
+}
+.maroonTopBar p.selectHolder {
+    margin:0;
+    padding:2px 0px 5px 15px;
+    font-size:1.00em;
+}
+
+.maroonTopBar select {
+    position:relative;
+    clear:both;
+    border:none;
+    margin:6px 0px 4px 0px;
+    width:157px;
+    font-size:1.00em !important;
+    padding:2px 1px 2px 2px;
+    height:19px;
+}
+
+.mahoganyTopBar {
+    width:237px;
+    overflow:hidden;
+    color:#ffffff;
+    font-weight:bold;
+    padding:8px 20px 3px 0px;
+}
+.mahoganyTopBar p {
+    margin:0;
+    padding:2px 0px 5px 15px;
+    font-size:1.10em;
+}
+.redTopBar {
+    width:237px;
+    overflow:hidden;
+    color:#ffffff;
+    font-weight:bold;
+    padding:8px 20px 3px 0px;
+}
+.redTopBar p {
+    margin:0;
+    padding:2px 0px 5px 15px;
+    font-size:1.10em;*/
+}
+.blueTopBar {
+    width:237px;
+    overflow:hidden;
+    color:#ffffff;
+    font-weight:bold;
+    padding:8px 20px 3px 0px;
+}
+
+.blueTopBar p {
+    margin:0;
+    padding:2px 0px 5px 15px;
+    font-size:1.10em;
+}
+
+.leftColumn {
+    float:left;
+    width:675px;
+    overflow:hidden;
+}
+
+.colTop {
+    width:660px;
+    height:55px;
+    margin:0;
+    padding:0 0 0 15px;
+    background: url(../strucimages/leftColTopBg.png) no-repeat top right;
+    overflow:hidden;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/leftColTopBg.png',sizingMethod='scale');
+}
+
+.colMid {
+    width:660px;
+    overflow:hidden;
+    padding:0 0 0 15px;
+    margin:0;
+    background:url(../strucimages/leftColBg.png) repeat-y;
+    clear:both;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/leftColBg.png',sizingMethod='scale');
+}
+.colBottom {
+    clear:both;
+    width:675px;
+    height:50px;
+    margin:0;
+    background: url(../strucimages/leftColBottomBg.png) no-repeat top right;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/leftColBottomBg.png',sizingMethod='scale');
+}
+
+.colMid .noPic p {
+    font-size:0.92em;
+}
+
+.rightColumn {
+    float:right !important;
+    width:262px;
+    overflow:hidden;
+}
+
+#moreIdeas,#moreInfo,#specialOffers,#atAGlance,#planningVisit,#flyingToAustralia,#starRatingModule {
+    font-size:0.92em !important;
+    margin-bottom:15px;
+    width:257px;
+}
+
+#flyingToAustralia .strong {
+    color:#FCE2CD;
+}
+
+a.planHolMain .rightColumn {
+    float:left;
+    overflow:visible;
+}
+
+.homeSubLeftColumn > .subTop {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    padding-top:10px;
+    height:37px;
+        background: url(../strucimages/homeSubLeftTopBg.png) no-repeat top right;
+}
+
+
+.threeColSubColumn > .subTop {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    padding-top:10px;
+    height:37px;
+        background: url(../strucimages/homeSubLeftTopBg.png) no-repeat top right;
+}
+
+*html .subTop {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    padding-top:10px;
+    height:37px;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/homeSubLeftTopBg.png',sizingMethod='scale');
+}
+
+.homeSubLeftColumn > .subMid {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    overflow:hidden;
+        background: url(../strucimages/homeSubLeftBg.png) repeat-y top right;
+}
+
+.threeColSubColumn > .subMid {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    overflow:hidden;
+        background: url(../strucimages/homeSubLeftBg.png) repeat-y top right;
+}
+
+*html .subMid {
+    width:300px;
+    padding-left:10px;
+    overflow:hidden;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/homeSubLeftBg.png',sizingMethod='scale');
+}
+
+.homeSubLeftColumn > .subBottom {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    height:47px;
+        background: url(../strucimages/homeSubLeftBottomBg.png) repeat-y top right;
+}
+
+.threeColSubColumn > .subBottom {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    height:47px;
+        background: url(../strucimages/homeSubLeftBottomBg.png) repeat-y top right;
+}
+
+*html .subBottom {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    height:47px;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/homeSubLeftBottomBg.png',sizingMethod='scale');
+}
+
+
+
+
+
+.redHeading {
+    color:#9f2c11;
+    font-weight:bold;
+    font-size: 1.05em
+}
+.darkRedHeading {
+    color:#480e00;
+    font-weight:bold;
+    font-size: 1.05em;
+}
+.noPic {
+    padding: 0 25px 20px 0;
+    margin:0;
+    width:620px;
+    overflow:hidden;
+}
+.topAlignText {
+    position:relative;
+    top:-8px;
+}
+.textCol {
+    postion:relative; 
+    float:left;
+    padding: 0 25px;
+    width:431px;
+    overflow:hidden;
+    margin-right:-3px;
+}
+.textCol p {
+    postion:relative; 
+    color:#000000;
+    font-size:0.92em;
+    line-height:1.65em;
+    padding:5px 0;
+    margin:0;
+}
+.noPic p {
+    postion:relative; 
+    color:#000000;
+    font-size:0.92em;
+    line-height:1.65em;
+    padding:0 5px 5px 5px;
+    margin:0;
+}
+.picCol {
+    postion:relative; 
+    float:left;
+    width:179px;
+    overflow:hidden;
+}
+.picColtable{
+    postion:relative; 
+    float:left;
+    width:179px;
+    
+}
+.picHolder {
+    postion:relative; 
+    width:177px;
+    overflow:hidden;
+    border:1px solid #000000;
+}
+
+.picHolderAgent {
+    border:1px solid #000000;
+    border:1px 1px 0 1px;
+    width:100px;
+}
+.nopicHolderAgent {
+    border:0;
+    height1:67px;
+    padding:13px 0 0 0;
+    text-align:center;
+    width:100px;
+}
+
+.picCaption {
+    font-size:0.92em !important;
+}
+
+#mainContent.destinationMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionBlueBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+#mainContent.experiencesMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionBrownBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+
+#mainContent.aboutMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionGreenBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+
+#mainContent.eventsMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionMaroonBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+
+#mainContent.accommodationMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionLightBrownBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+#mainContent.accommodation1Main .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionLightBrownBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+
+#mainContent.planHolMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionLightBrownBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+
+#mainContent.agentMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionLightBrownBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+
+#mainContent.generalInfoMain .picCaption {
+    width:159px;
+    padding:5px 10px 15px 10px;
+    overflow:hidden;
+    background: url(../strucimages/picCaptionBg.gif) no-repeat bottom left;
+    color:#ffffff;
+    margin-bottom:16px;
+}
+
+.blueHeading {
+    color:#004b7b;
+    font-weight:bold;
+    font-size: 1.05em
+}
+.blackHeading {
+    color:#000000;
+    font-weight:bold;
+    font-size: 1.05em
+}
+.subMid .itemHolder {
+    width:100%;
+    overflow:hidden;
+    clear:both;
+    margin-bottom:12px;
+}
+.itemHeader {
+    width:100%;
+    overflow:hidden;
+    padding:3px 0px 6px 0px;    
+    background: url(../strucimages/gradientBlackDivider.gif) no-repeat bottom left;
+}
+.itemHeader p {
+    color:#000000;
+    font-weight:bold;
+    font-size: 1.00em;
+    margin:0;
+    padding:0;
+}
+.itemHeader p.lightGrey {
+    color:#666666;
+    font-weight:normal;
+    font-size: 0.88em;
+    margin:-4px 0 0 0;
+    padding:0;
+}
+.subMid .itemHolder .itemText {
+    margin:0;
+    padding:4px 0px 4px 0px;
+}
+.subMid .itemHolder .itemText p {
+    margin:0;
+    padding:2px 0px 2px 0px;
+    line-height:1.45em;
+    font-size:0.92em !important;
+    font-weight:normal;
+    position:relative;
+}  
+.itemText p {
+    clear:both;
+}  
+.subMid .itemHolder .photoHolder {
+    float:left;
+    padding:0px 10px 0px 3px;
+}
+.subMid .itemHolder .leader {
+    float:left;
+    padding-right:15px;
+    width:180px;
+}
+.itemText p a { 
+    position:relative; 
+    color:#8d1e16; 
+    text-decoration:underline; 
+}
+.itemText p a.black { 
+    position:relative; 
+    color:#000000; 
+    text-decoration:underline; 
+}
+p.resultsText a { 
+    position:relative; 
+    color:#000000; 
+    text-decoration:underline; 
+}
+
+.photoHolder img {
+    border:1px solid #000000;
+}
+a.whiteUnderline {
+    color:#ffffff;
+    text-decoration:underline;
+}
+img.btnMap { cursor:pointer; }
+
+/*Padding 5px*/
+.paddingTopFive {
+    padding-top:5px;
+}
+.paddingBottomFive {
+    padding-bottom:5px;
+}
+.paddingLeftFive {
+    padding-left:5px;
+}
+.paddingRightFive {
+    padding-right:5px;
+}
+/*
+
+/*Padding 10px*/
+.paddingTopTen {
+    padding-top:10px;
+}
+.paddingBottomTen {
+    padding-bottom:10px;
+}
+.paddingLeftTen {
+    padding-left:10px;
+}
+.paddingRightTen {
+    padding-right:10px;
+}
+/*
+
+/*Margin 5px*/
+.marginTopFive {
+    margin-top:5px;
+}
+.marginBottomFive {
+    margin-bottom:5px;
+}
+.marginLeftFive {
+    margin-left:5px;
+}
+.marginRightFive {
+    margin-right:5px;
+}
+/*
+/*Margin 10px*/
+.marginTopZero {
+    margin-top:0;
+}
+.marginTopTen {
+    margin-top:10px;
+}
+.marginBottomTen {
+    margin-bottom:10px;
+}
+.marginLeftTen {
+    margin-left:10px;
+}
+.marginRightTen {
+    margin-right:10px;
+}
+/*
+/*Margin 15px*/
+.marginTopFifteen {
+    margin-top:15px;
+}
+.marginBottomFifteen {
+    margin-bottom:15px;
+}
+.marginLeftFifteen {
+    margin-left:15px;
+}
+.marginRightFifteen {
+    margin-right:15px;
+}
+/*
+/*
+/*Margin 20px*/
+.marginTopTwenty {
+    margin-top:20px;
+}
+.marginBottomTwenty {
+    margin-bottom:20px;
+}
+.marginLeftTwenty {
+    margin-left:20px;
+}
+.marginRightTwenty {
+    margin-right:20px;
+}
+/*
+==============================================================
+START LINK STYLES
+==============================================================
+*/
+
+/*START: Homepage links*/
+#mainContent.homeMain #colOne a.sectionLink, #mainContent.homeMain #colOne a.sectionLink:link, #mainContent.homeMain #colOne a.sectionLink:visited, #mainContent.homeMain #colOne a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/redArrow.gif) no-repeat left center;
+    color:#9f2c11;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+    font-size:1.00em;    
+}
+#mainContent.homeMain #colOne a.sectionLink:hover, #mainContent.homeMain #colOne a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+#mainContent.homeMain #colTwo a.sectionLink, #mainContent.homeMain #colTwo a.sectionLink:link, #mainContent.homeMain #colTwo a.sectionLink:visited, #mainContent.homeMain #colTwo a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/blueArrow.gif) no-repeat scroll left center;
+    color:#004b7b;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+}
+#mainContent.homeMain #colTwo a.sectionLink:hover, #mainContent.homeMain #colTwo a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+/*END: Homepage links*/
+
+/*START: Events links*/
+#mainContent.eventsMain #colOne a.sectionLink, #mainContent.eventsMain #colOne a.sectionLink:link, #mainContent.eventsMain #colOne a.sectionLink:visited, #mainContent.eventsMain #colOne a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/eventsRedArrow.gif) no-repeat left center;
+    color:#861c15;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+    font-size:1.00em;    
+}
+#mainContent.eventsMain #colOne a.sectionLink:hover, #mainContent.eventsMain #colOne a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+#mainContent.eventsMain #colTwo a.sectionLink, #mainContent.eventsMain #colTwo a.sectionLink:link, #mainContent.eventsMain #colTwo a.sectionLink:visited, #mainContent.eventsMain #colTwo a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/eventsRedArrow.gif) no-repeat left center;
+    color:#861c15;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+    font-size:1.00em;    
+}
+#mainContent.eventsMain #colTwo a.sectionLink:hover, #mainContent.eventsMain #colTwo a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+/*END: Events links*/
+
+/*START: Plan your holiday links*/
+#mainContent.planHolMain #colOne a.sectionLink, #mainContent.planHolMain #colOne a.sectionLink:link, #mainContent.planHolMain #colOne a.sectionLink:visited, #mainContent.planHolMain #colOne a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/darkerRedArrow.gif) no-repeat scroll left center;
+    color:#9f4803;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+}
+#mainContent.planHolMain #colTwo a.sectionLink, #mainContent.planHolMain #colTwo a.sectionLink:link, #mainContent.planHolMain #colTwo a.sectionLink:visited, #mainContent.planHolMain #colTwo a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/darkerRedArrow.gif) no-repeat scroll left center;
+    color:#9f4803;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+}
+#mainContent.planHolMain #colOne a.sectionLink:hover, #mainContent.planHolMain #colOne a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+#mainContent.planHolMain #colTwo a.sectionLink:hover, #mainContent.planHolMain #colTwo a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+/*END: Plan your holiday links*/
+
+/*START: Things to do links*/
+#mainContent.experiencesMain #colOne a.sectionLink, #mainContent.experiencesMain #colOne a.sectionLink:link, #mainContent.experiencesMain #colOne a.sectionLink:visited, #mainContent.experiencesMain #colOne a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/redArrow.gif) no-repeat left center;
+    color:#9f2c11;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+    font-size:1.00em;    
+}
+#mainContent.experiencesMain #colOne a.sectionLink:hover, #mainContent.experiencesMain #colOne a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+#mainContent.experiencesMain #colTwo a.sectionLink, #mainContent.experiencesMain #colTwo a.sectionLink:link, #mainContent.experiencesMain #colTwo a.sectionLink:visited, #mainContent.experiencesMain #colTwo a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/darkRedArrow.gif) no-repeat left center;
+    color:#480e00;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+    font-size:1.00em;    
+}
+#mainContent.experiencesMain #colTwo a.sectionLink:hover, #mainContent.experiencesMain #colTwo a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+#mainContent.experiencesMain #colThree a.sectionLink, #mainContent.experiencesMain #colThree a.sectionLink:link, #mainContent.experiencesMain #colThree a.sectionLink:visited, #mainContent.experiencesMain #colThree a.sectionLink:active {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/darkRedArrow.gif) no-repeat left center;
+    color:#480e00;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+    font-size:1.00em;    
+}
+#mainContent.experiencesMain #colThree a.sectionLink:hover, #mainContent.experiencesMain #colThree a.sectionLink:visited:hover {
+    text-decoration:underline;
+}
+/*END: Things to do links*/
+
+
+/*START: redArrow links*/
+p a.redArrow {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/redArrow.gif) no-repeat left center;
+    color:#9f2c11;
+    font-weight:bold;
+    text-decoration:none;
+    position: static;
+    font-size:1.00em;
+}
+p a.redArrow:link {
+    text-decoration:none;
+}
+p a.redArrow:visited {
+    text-decoration:none;
+}
+p a.redArrow:visited:hover {
+    text-decoration:underline;
+}
+p a.redArrow:hover {
+    text-decoration:underline;
+}
+p a.redArrow:active:hover {
+    text-decoration:underline;
+}
+p a.redArrow:active {
+    text-decoration:none;
+}
+/*END: redArrow links*/
+
+/*START: darkRedArrow links*/
+p a.darkRedArrow {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/darkRedArrow.gif) no-repeat left center;
+    color:#480e00;
+    font-weight:bold;
+    text-decoration:none !important;
+    position: static;
+}
+p a.darkRedArrow:link {
+    text-decoration:none;
+}
+p a.darkRedArrow:hover {
+    text-decoration:underline;
+}
+p a.darkRedArrow:visited:hover {
+    text-decoration:underline;
+}
+p a.darkRedArrow:active:hover {
+    text-decoration:underline;
+}
+p a.darkRedArrow:visited {
+    text-decoration:none;
+}
+p a.darkRedArrow:active {
+    text-decoration:none;
+}
+/*END: darkRedArrow links*/
+
+/*START: blueArrow links*/
+p a.blueArrow {
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/blueArrow.gif) no-repeat scroll left center;
+    color:#004b7b;
+    font-weight:bold;
+    text-decoration:none !important;
+    position: static;
+}
+p a.blueArrow:link {
+    color:#004b7b;
+    text-decoration:none;
+}
+p a.blueArrow:hover {
+    color:#004b7b;
+    text-decoration:underline;
+}
+p a.blueArrow:visited:hover {
+    color:#004b7b;
+    text-decoration:underline;
+}
+p a.blueArrow:active:hover {
+    color:#004b7b;
+    text-decoration:underline;
+}
+p a.blueArrow:visited {
+    color:#004b7b;
+    text-decoration:none;
+}
+p a.blueArrow:active {
+    color:#004b7b;
+    text-decoration:none;
+}
+/*END: blueArrow links*/
+
+/*START: greenArrow links*/
+p a.greenArrow {
+    margin:0;
+    padding:0px 0px 0px 12px;
+    background: url(../strucimages/greenArrow.gif) no-repeat 1px 4px;
+    color:#006800;
+    font-weight:bold;
+    text-decoration:none !important;
+    position:static;
+}
+p a.greenArrow:link {
+    text-decoration:none;
+}
+p a.greenArrow:hover {
+    text-decoration:underline;
+}
+p a.greenArrow:visited:hover {
+    text-decoration:underline;
+}
+p a.greenArrow:active:hover {
+    text-decoration:underline;
+}
+p a.greenArrow:visited {
+    text-decoration:none;
+}
+p a.greenArrow:active {
+    text-decoration:none;
+}
+/*END: greenArrow links*/
+
+/*START: Charcoal Bottom Links*/
+.charcoalBottom a {
+    font-size: 0.92em;
+    font-weight:bold;
+    color:#ffffff;
+    text-decoration:none;
+}
+.charcoalBottom a:link {
+    text-decoration:none;
+}
+.charcoalBottom a:hover {
+    text-decoration:underline;
+}
+.charcoalBottom a:visited:hover {
+    text-decoration:underline;
+}
+.charcoalBottom a:visited {
+    text-decoration:none;
+}
+.charcoalBottom a:active {
+    text-decoration:none;
+}
+/*END: Charcoal Bottom Links*/
+
+
+/*
+==============================================================
+END LINK STYLES
+==============================================================
+*/
+
+
+/*
+==============================================================
+START LIST & LIST LINK STYLES
+==============================================================
+*/
+/*START: Header Nav Styles*/
+ul#headerNav {
+    margin:0;
+    padding:8px 20px;
+    float:left;
+}
+ul#headerNav li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0 10px;
+    list-style:none;
+    background: url(../strucimages/verticalGreyDivider.gif) no-repeat center left;
+}
+ul#headerNav li a {
+    color:#e1e1e1;
+    font-size:0.92em;
+    text-decoration:none;
+    padding:0;
+    margin:0;
+}
+ul#headerNav li a:link {
+    color:#e1e1e1;
+    text-decoration:none;
+}
+ul#headerNav li a:visited {
+    color:#e1e1e1;
+    text-decoration:none;
+}
+ul#headerNav li a:visited:hover {
+    color:#e1e1e1;
+    text-decoration:underline;
+}
+ul#headerNav li a:hover {
+    color:#e1e1e1;
+    text-decoration:underline;
+}
+ul#headerNav li a:active {
+    color:#e1e1e1;
+    text-decoration:none;
+}
+/*END: Header Nav Styles*/
+
+/*START: Top Nav Styles*/
+ul#topNav {
+    margin:0;
+    padding:0;
+    float:left;
+}
+ul#topNav li {
+    float:left;
+    margin:0;
+    padding:2px 10px;
+    list-style:none;
+    background: url(../strucimages/verticalBlackDivider.gif) no-repeat top left;
+}
+ul#topNav li a {
+    color:#000000;
+    font-size:0.92em;
+    text-decoration:none;
+}
+ul#topNav li a:link {
+    text-decoration:none;
+}
+ul#topNav li a:visited {
+    text-decoration:none;
+}
+ul#topNav li a:visited:hover {
+    text-decoration:underline;
+}
+ul#topNav li a:hover {
+    text-decoration:underline;
+}
+ul#topNav li a:active {
+    text-decoration:none;
+}
+
+ul#topNav li.selected {
+    font-weight:bold;
+}
+ul#topNav.crumbsAbout li.selected {
+    color:#016800;
+}
+ul#topNav.crumbsAbout li.selected a {
+    color:#016800;
+    text-decoration:none;
+}
+ul#topNav.crumbsDestinations li.selected {
+    color:#01467c;
+}
+ul#topNav.crumbsDestinations li.selected a {
+    color:#01467c;
+    text-decoration:none;
+}
+ul#topNav.crumbsExperiences li.selected {
+    color:#7a3b1c;
+}
+ul#topNav.crumbsExperiences li.selected a {
+    color:#7a3b1c;
+    text-decoration:none;
+}
+ul#topNav.crumbsPlan li.selected {
+    color:#964506;
+}
+ul#topNav.crumbsPlan li.selected a {
+    color:#964506;
+    text-decoration:none;
+}
+ul#topNav.crumbsEvents li.selected {
+    color:#990000;
+}
+ul#topNav.crumbsEvents li.selected a {
+    color:#990000;
+    text-decoration:none;
+}
+
+ul#topNav li.selected a {
+    font-weight:bold;
+    text-decoration:none;
+}
+ul#topNav li.selected a:link {
+    text-decoration:none;
+}
+ul#topNav li.selected a:visited {
+    text-decoration:none;
+}
+ul#topNav li.selected a:visited:hover {
+    text-decoration:underline;
+}
+ul#topNav li.selected a:hover {
+    text-decoration:underline;
+}
+ul#topNav li.selected a:active {
+    text-decoration:none;
+}
+/*END: Top Nav Styles*/
+
+
+/*START: Breadcrumb Styles*/
+ul#breadcrumbs {
+    margin:0;
+    padding:0;
+    float:left;
+    width:700px;
+}
+ul#breadcrumbs li {
+    float:left;
+    font-size:0.92em !important;
+    margin:0;
+    padding:8px 15px 8px 5px;
+    list-style:none;
+    color:#cccccc;
+    background: url(../strucimages/greyRightArrow.gif) no-repeat right center;
+}
+
+ul#breadcrumbs li a {
+    color:#cccccc;
+    font-size:0.99em !important;
+    text-decoration:underline;
+}
+ul#breadcrumbs li a:link {
+    text-decoration:underline;
+}
+ul#breadcrumbs li a:visited {
+    text-decoration:underline;
+}
+ul#breadcrumbs li a:visited:hover {
+    text-decoration:none;
+}
+ul#breadcrumbs li a:hover {
+    text-decoration:none;
+}
+ul#breadcrumbs li a:active {
+    text-decoration:underline;
+}
+/*END: Breadcrumb Styles*/
+
+/*START: Large Nav styles*/
+ul.mainNavLarge {
+    margin:0;
+    padding:1px;
+    height:114px;
+    width:939px;
+    /*overflow:hidden;*/
+    background:#ffffff;
+}
+ul.mainNavLarge li {
+    float:left;
+    list-style-type:none;
+    margin-right:1px;
+}
+ul.mainNavLarge li div.navImage {
+    width:234px;
+    height:79px;
+    overflow:hidden;
+}
+ul.mainNavLarge li div.navText {
+    width:209px;
+    height:25px;
+    overflow:hidden;
+    font-size:0.95em;
+    color:#ffffff;
+    background: url(../strucimages/greenLargeBg.jpg) no-repeat top right;
+    text-align:right;
+    padding: 10px 25px 0 0;
+}
+ul.mainNavLarge li.active div.navText {
+    color:#006600;
+    background: url(../strucimages/whiteGreenArrowBg.gif) no-repeat top right;
+}
+/* ---------- Begin images for plan your holiday page ---------- */
+ul#planNav li div.navTextgettingTo, 
+ul#planNav li div.navTextgettingAround,
+ul#planNav li div.navTextaccommodation,
+ul#planNav li div.navTextfindAgent {
+    height:25px;
+    width:209px;
+    padding: 10px 25px 0 0;
+    overflow:hidden;
+    text-align:right;
+}
+
+ul#planNav li div.navTextgettingTo a, 
+ul#planNav li div.navTextgettingAround a,
+ul#planNav li div.navTextaccommodation a,
+ul#planNav li div.navTextfindAgent a {
+    font-size:0.95em;
+
+}
+ul#planNav li div.navTextgettingTo {
+    background: url(../strucimages/getToAustraliaBg.gif) no-repeat top right;
+}
+ul#planNav li.active div.navTextgettingTo {
+    background: url(../strucimages/getToAustraliaActiveBg.gif) no-repeat top right;
+}
+ul#planNav li div.navTextgettingAround {
+    background: url(../strucimages/getAroundAustraliaBg.gif) no-repeat top right;
+}
+ul#planNav li.active div.navTextgettingAround {
+    background: url(../strucimages/getAroundAustraliaActiveBg.gif) no-repeat top right;
+}
+ul#planNav li div.navTextaccommodation {
+    background: url(../strucimages/accommodationBg.gif) no-repeat top right;
+}
+ul#planNav li.active div.navTextaccommodation {
+    background: url(../strucimages/accommodationActiveBg.gif) no-repeat top right;
+}
+ul#planNav li div.navTextfindAgent {
+    background: url(../strucimages/findTravelAgentBg.gif) no-repeat top right;
+}
+ul#planNav li.active div.navTextfindAgent {
+    background: url(../strucimages/findTravelAgentActiveBg.gif) no-repeat top right;
+}
+/* ---------- End images for plan your holiday page ---------- */
+
+ul.mainNavLarge li.active div.navImage {
+    text-align:center;
+}
+ul.mainNavLarge li.active div.navImage img {
+    width:90%;
+    height:85%;
+    margin-top:8px;
+}
+ul#aboutNav li.active div.navImage img {
+    border:2px solid #006600;
+}
+ul#aboutNav li.active a {
+    color:#006600;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul#planNav li.active a {
+    color:#934201;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul#planNav li.active div.navImage img {
+    border:2px solid #9a6338;
+}
+ul.mainNavLarge li a {
+    color:#ffffff;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul.mainNavLarge li a:hover {
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+ul.mainNavLarge li.active a {
+    color:#006600;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul.mainNavLarge li.active a:hover {
+    color:#006600;
+    text-decoration:underline;
+}
+/*END: Large Nav styles*/
+
+
+/*START: Main Nav Styles*/
+ul.mainNav {
+    margin:0;
+    padding:1px;
+    height:114px;
+    width:944px;
+    /*overflow:hidden;*/
+    background:#ffffff;
+}
+ul.mainNav li {
+    float:left;
+    list-style-type:none;
+    margin-right:1px;
+}
+ul.mainNav li div.navImage {
+    width:134px;
+    height:79px;
+    overflow:hidden;
+}
+ul.mainNav li.active div.navImage {
+    text-align:center;
+}
+ul.mainNav li.active div.navImage img {
+    width:90%;
+    height:85%;
+    margin-top:8px;
+}
+
+
+ul.mainNav li div.navText {
+    width:109px;
+    height:25px;
+    overflow:hidden;
+    font-size:0.95em;
+    color:#ffffff;
+    background: url(../strucimages/charcoalBg.jpg) no-repeat;
+    text-align:right;
+    padding: 10px 25px 0 0;
+}
+
+ul#experienceNav li.active div.navImage img {
+    border:2px solid #2c0e00;
+}
+
+ul.mainNav li.active div.navText {
+    color:#2c0e00;
+    background: url(../strucimages/whiteBg.jpg) no-repeat;
+
+}
+
+
+ul.mainNav li.active div.navText a {
+    color:#2c0e00;
+    font-size:0.95em;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul.mainNav li.active div.navText a:hover {
+    color:#2c0e00;
+    text-decoration:underline;
+}
+ul.mainNav li a.navActive {
+    color:#2c0e00;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul.mainNav li a.navActive:hover {
+    color:#2c0e00;
+    text-decoration:underline;
+}
+ul.mainNav li a {
+    color:#ffffff;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul.mainNav li a:hover {
+    color:#ffffff;
+    text-decoration:underline;
+}
+ul.mainNav li.aboriginal {
+    background: url(../images/navImages/aboriginal.jpg) no-repeat;
+}
+ul.mainNav li.foodAndWine {
+    background: url(../images/navImages/foodAndWine.jpg) no-repeat;
+}
+ul.mainNav li.outback {
+    background: url(../images/navImages/outback.jpg) no-repeat;
+}
+ul.mainNav li.beaches {
+    background: url(../images/navImages/beaches.jpg) no-repeat;
+}
+ul.mainNav li.cities {
+    background: url(../images/navImages/cities.jpg) no-repeat;
+}
+ul.mainNav li.nature {
+    background: url(../images/navImages/nature.jpg) no-repeat;
+}
+ul.mainNav li.journeys {
+    background: url(../images/navImages/journeys.jpg) no-repeat;
+}
+/*END: Main Nav Styles*/
+/* ---------- Added by Mark Richards 29/09/2008 ---------- */
+/* START: Plan Your Holiday Content Columns Styles */
+.subLeftColumn {
+    float:left;
+    width:330px;
+    margin-top:10px;
+    overflow:hidden;
+}
+.planHolMain {
+    background: url(../strucimages/mainContentBg.gif) no-repeat;
+    padding-top:80px;
+}
+
+/* END: Plan Your Holiday Content Columns Styles */
+/*START: Plan Your Holiday List Styles*/
+
+
+ul.plan1 {
+	padding:0;
+	margin:0 0 0 -3px;
+	border: 0px;
+}
+ul.plan1 li {
+    position:relative;
+    padding:10px 7px 10px 0px;
+    margin:0;
+    list-style:none;
+    background: url(../strucimages/gradientGreyDivider.gif) no-repeat bottom left;
+}
+ul.plan1 li a {
+	padding:5px 0px 5px 15px;
+	font-size:0.92em !important;
+	color:#ffffff;
+	text-decoration:none;
+}
+ul.plan1 li a:link {
+    color:#ffffff;
+    text-decoration:none;
+}
+ul.plan1 li a:hover {
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+
+ul.plan {
+	padding:0;
+	margin:0 0 0 -3px;
+	border: 0px;
+}
+ul.plan li {
+    position:relative;
+    padding:10px 7px 10px 0px;
+    margin:0;
+    list-style:none;
+    background: url(../strucimages/gradientGreyDivider.gif) no-repeat bottom left;
+}
+ul.plan li a {
+    padding:5px 0px 5px 35px;
+    font-size:0.92em !important;
+    color:#ffffff;
+    text-decoration:none;
+}
+ul.plan li a:link {
+    color:#ffffff;
+    text-decoration:none;
+}
+ul.plan li a:hover {
+    color:#ffffff;
+    text-decoration:underline;
+}
+ul.plan a.gettingTo {
+    background:url(../strucimages/iconPlane.gif) no-repeat 0px 2px;
+}
+ul.plan a.gettingAround {
+    background:url(../strucimages/iconTrain.gif) no-repeat 0px 2px;
+}
+ul.plan a.accommodation {
+    background:url(../strucimages/iconBed.gif) no-repeat 0px 2px;
+}
+ul.plan a.findAgent {
+    background:url(../strucimages/iconHeadset.gif) no-repeat 0px 2px;
+}
+/*END: Plan Your Holiday List Styles*/
+/*START: Expandable Offers List Styles*/
+ul.expandable {
+    padding:0;
+    margin:0 0 0 3px;
+}
+ul.expandable li {
+    position:relative;
+    padding:10px 0px 10px 0px;
+    margin:0;
+    list-style:none;
+    background: url(../strucimages/gradientLgGreyDivider.gif) no-repeat bottom left;
+    cursor:pointer;
+}
+
+ul.expandable li div {
+    position:static;
+    display:none;
+    overflow:hidden;
+    color:#ffffff;
+    padding:15px 0 10px 0;
+    margin:10px 0 0 0;
+    line-height:1.50em;
+    background: url(../strucimages/gradientLgGreyDivider.gif) no-repeat top left;
+}
+
+ul.expandable li div p {
+    background:none;
+}
+
+ul.expandable li a {
+    text-decoration:none;
+}
+
+ul.expandable li p {
+    background: url(../strucimages/pinkArrowCharcoalBg.gif) no-repeat left center;
+    color:#FFFFFF;
+    font-size:1em;
+    line-height:1.5em;
+    margin:0;
+    padding:0 7px 0 13px;
+}
+
+ul.expandable li p.clicked {
+    background: url(../strucimages/whiteDownArrowCharcoalBg.gif) no-repeat left center;
+}
+
+ul.expandable li p.clicked a, ul.expandable li p.clicked a:link, ul.expandable li p.clicked a:hover, ul.expandable li p.clicked a:visited,  ul.expandable li p.clicked a:visited:hover,  ul.expandable li p.clicked a:active {
+    color:#FFFFFF;
+}
+ 
+   
+.expandable li div img.expandListPic {
+    position:static;
+    border:1px solid #000000;
+    margin:0px 10px 3px 0px;
+}
+/*Start Pink Link*/
+
+ul.expandable li a.pink {
+    color:#deb3b3;
+    font-weight:bold;
+}
+
+ul.expandable li div a.pink {
+    color:#deb3b3;
+    padding:0;
+    margin:0;
+    font-weight:normal;
+    text-decoration:underline;
+    position:relative;
+    background:none;
+}
+
+
+ul.expandable li div a.pink:link{
+    color:#deb3b3;
+    text-decoration:underline;
+}
+
+ul.expandable li div a.pink:visited {
+    color:#deb3b3;
+    text-decoration:underline;
+}
+
+ul.expandable li div a.pink:hover,ul.expandable li div a.pink:visited:hover {
+    color:#deb3b3;
+    text-decoration:none;
+}
+
+/*End Pink Link*/
+
+
+/*Start Blue Link*/
+
+ul.expandable li a.blue {
+    color:#a9c4da;
+    font-weight:bold;
+    background: url(../strucimages/blueArrowCharcoalBg.gif) no-repeat center left;
+    padding-left:13px;
+    text-decoration:none;
+}
+
+ul.expandable li a.blue:hover {
+    text-decoration:none;
+}
+
+ul.expandable li div a.blue {
+    color:#a9c4da;
+    background:none;
+    padding:0;
+    margin:0;
+    font-weight:normal;
+    text-decoration:underline;
+}
+
+ul.expandable li div a.blue:link {
+    color:#a9c4da;
+    text-decoration:underline;
+}
+ul.expandable li div a.blue:hover{
+    color:#a9c4da;
+    text-decoration:underline;
+}
+/*End Blue Link*/
+/*Start White Link - non collapse/expandable */
+.charcoalArea ul.standard {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.charcoalArea ul.standard li {
+    margin:0;
+    padding:5px 0 5px 13px;
+    list-style:none;
+    color:#ffffff;
+    font-size:0.92em;
+    position:relative;
+    background: url(../strucimages/whiteArrowCharcoalBg.gif) no-repeat left center;
+}
+.charcoalArea ul.standard li a.white {
+    margin:0;
+    padding:0;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:1.08em !important;
+}
+
+.charcoalArea ul.standard li a.white:hover, .charcoalArea ul.standard li a.white:visited:hover {
+    text-decoration:underline;
+}
+
+/*End White Link*/
+#pnlPagination > .pagination {
+    position:relative;
+    margin:15px 0px;
+    width:613px;
+    overflow:hidden;
+    padding:8px 0px 0px 0px;
+    background: url(../strucimages/paginationFade.png) no-repeat;
+}
+
+*html .pagination {
+    position:relative;
+    margin:15px 0px;
+    width:613px;
+    overflow:hidden;
+    padding:8px 0px 0px 0px;
+        background: url(../strucimages/paginationFade.gif) no-repeat;}
+
+.pagination .bottom {
+    clear:both;
+    background:url(../strucimages/paginationFade.gif) no-repeat bottom left;
+    width:613px;
+    height:10px;
+}
+
+.pagination a.prev, .pagination a.next {
+    color:#000000;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.pagination div.pageNums {
+    float:left;
+    text-align:center;
+    font-weight:bold;
+    margin:0px 5px;
+    width:342px;
+    padding-left:123px;
+}
+.pagination div.pageNums a {
+    color:#000000;
+    text-decoration:underline;
+    font-weight:normal;
+}
+
+.paginationDark {
+    position:relative;
+    margin:15px 0px;
+    width:613px;
+    overflow:hidden;
+    padding:8px 0px 0px 0px;
+}
+.paginationDark .bottom {
+    clear:both;
+    background:url(../strucimages/paginationDarkFade.gif) no-repeat bottom left;
+    width:613px;
+    height:10px;
+}
+
+.paginationDark a.prev, .paginationDark a.next {
+    color:#000000;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.paginationDark div.pageNums {
+    float:left;
+    text-align:center;
+    font-weight:bold;
+    margin:0px 5px;
+    width:450px;
+}
+.paginationDark div.pageNums a {
+    color:#000000;
+    text-decoration:underline;
+    font-weight:normal;
+}
+
+
+.atdw {
+    clear:both;
+    width:100%;
+    text-align:center;
+    font-size:0.81em;
+}
+.atdw img.atdwLogo {
+    vertical-align:middle;
+    margin-right:10px;
+}
+
+
+span.toggleAddress {
+    margin:0;
+    padding:0;
+    display:none;
+}
+a.toggleAddressSpan {color:#000000;}
+a.toggleAddressSpan:link {color:#000000;}
+a.toggleAddressSpan:visited {color:#000000;}
+
+ul.expandable li a:link {
+    text-decoration:none;
+}
+ul.expandable li a:visited {
+    text-decoration:none;
+}
+ul.expandable li a:visited:hover {
+    text-decoration:none;
+}
+ul.expandable li a:hover {
+    text-decoration:none;
+}
+ul.expandable li a:active {
+    text-decoration:underline;
+}
+/*
+ul.expandable li a.clicked {
+    color:#ffffff;
+    font-weight:bold;
+    background: url(../strucimages/whiteDownArrowCharcoalBg.gif) no-repeat center left;
+    padding-left:13px;
+    text-decoration:none;
+}*/
+ul.expandable li a.clicked:link {
+    color:#ffffff;
+    text-decoration:none;
+}
+ul.expandable li a.clicked:visited {
+    color:#ffffff;
+    text-decoration:none;
+}
+ul.expandable li a.clicked:visited:hover {
+    color:#ffffff;
+    text-decoration:none;
+}
+ul.specials li a.clicked:hover {
+    color:#ffffff;
+    text-decoration:none;
+}
+ul.expandable li a.clicked:active {
+    color:#ffffff;
+    text-decoration:none;
+}
+/*END: Expandable Offers List Styles*/
+/* START: Ad Serving Module Styles */
+.adServeModTitle {
+    color:#000000;
+    font-weight:bold;
+}
+#adServingModule p a.weblink {
+    color:#1f4ead;
+    font-weight:bold;
+}
+/* END: Ad Serving Module Styles */
+/* START: Star Rating Module */
+#starRatingModule ul.starRating, ul.starRating {
+    color:#ffffff;
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+    width:190px;
+    height:17px;
+}
+    
+#starRatingModule ul.starRating li, ul.starRating li {
+    color:#f2d6bf;
+    float:left;
+    font-weight:bold;
+    margin-right:3px;
+}
+div.itemText ul.starRating {
+    margin:2px 0 2px 0;
+    height:13px;
+}
+#starRatingModule .charcoalArea p {
+    clear:both;
+    margin:0;
+    padding: 0 0 10px 0;
+}
+/* END: Star Rating Module */
+/* START: Flying to Australia Module */
+#flightList ul {
+    display:block;
+    float:left;
+    margin:0;
+    padding:0;
+    width:110px;
+}
+#flightList ul li {
+    line-height:20px;
+    list-style-type:none;
+    background:url(../strucimages/whiteArrowCharcoalBg.gif) no-repeat center left;
+    padding:0 0 0 14px;
+    margin:0;
+}
+
+#flightList ul li a, #flightList ul li a:link  {
+    color:#ffffff;
+    text-decoration:none;
+}
+#flightList ul li a:hover {
+    text-decoration:underline;
+}
+
+/* END: Flying to Australia Module */
+
+/*START: Search Button classes*/
+div#frmSearchEvents input.maroonSearch {
+    position:relative;
+    clear:both;
+    margin:0;
+    border:1px solid #861b14;
+    background:#a2504b url(../strucimages/maroonSearchBg.gif) repeat-x left bottom;
+    color:#ffffff;
+    font-weight:bold;
+    width:auto;
+    font-size:1.06em !important;
+    padding:2px 5px 2px 0px;
+}
+
+div#frmSearchEvents input.brownSearch {
+    position:relative;
+    clear:both;
+    margin:0;
+    border:1px solid #803900;
+    background: #b7743f url(../strucimages/brownSearchBg.gif) repeat-x left bottom;
+    color:#ffffff;
+    font-weight:bold;
+    width:auto;    
+    font-size:1.06em !important;
+    padding:2px 5px 2px 0px;
+}
+
+#btnSearchSubmit, #btnAgentSearch, #btnEventSearch {
+    height:25px !important;
+    width:64px !important;
+}
+#btnSearchSubmitSml {
+    height:19px;
+    width:19px;
+}
+/*END: Search Button classes*/
+
+/*START: On the map classes*/
+.maroonMapBg {
+    position:relative;
+    clear:both;
+    height:28px;
+    margin:0;
+    border:1px solid #861b14;
+    background: #a2504b url(../strucimages/maroonMapBg.gif) repeat-x left bottom;
+    color:#ffffff;
+    font-size:0.88em;
+    font-weight:bold;
+    padding:5px 5px 5px 25px;
+    cursor:pointer;
+    text-align:left;
+    width:108px;
+}
+.charcoalMapBg {
+    position:relative;
+    clear:both;
+    height:33px !important;
+    margin:0;
+    border:0px solid #ffffff !important;
+    background: #a2504b url(../strucimages/charcoalMapBg.gif) no-repeat 0 0 !important;
+    color:#ffffff;
+    font-size:0.88em;
+    font-weight:bold;
+    padding:5px 5px 15px 25px;
+    cursor:pointer;
+    text-align:left;
+    width:110px !important;
+}
+/*END: On the map classes*/
+
+/*START: Location Language*/
+ul.loclang {
+    margin:0;
+    padding:0;
+}
+ul.loclang li {
+    display: inline;    
+    float:left;
+    position:relative;
+    list-style:none;
+    color:#e1e1e1;
+    font-size:1.00em;
+    padding: 3px 18px 3px 22px;
+}
+ul.loclang li#location {
+    background:url(../strucimages/navGlobe.gif) no-repeat;
+    cursor:pointer;
+}
+ul.loclang li#language {
+    background:url(../strucimages/navPage.gif) no-repeat;
+    cursor:pointer;
+    padding-right: 10px;
+}
+ul.loclang li a:link, ul.loclang li a:visited {
+    color:#e1e1e1;
+    font-size:1.00em;
+    text-decoration:none;
+}
+
+ul.loclang li ul {
+    display:none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 500;
+}
+ul.loclang li ul li {
+    margin:5px 0 0 0;
+    padding:0;
+    list-style:none;
+    border: 1px solid #818181;
+    background:#ffffff;
+}
+#divLocation {
+    width:280px;
+}
+#divLanguage {
+    width:120px;
+}
+#divLocation table, #divLanguage table {
+    font-size:0.95em;
+    width:100%;
+}
+#divLocation table tr td,
+#divLanguage table tr td {
+    text-align:left;
+    color: #999;
+}
+#divLocation table td.title, #divLanguage table td.title {
+    padding:5px 3px;
+    color:#010101;
+}
+#divLocation table tr td.selected,
+#divLanguage table tr td.selected {
+    padding: 3px 20px;
+}
+#divLocation table a,
+#divLanguage table a {
+    display: block;
+    padding: 3px 3px 3px 20px;
+}
+#divLocation table a:link, #divLocation table a:visited, #divLanguage table a:link, #divLanguage table a:visited {
+    color:#010101;
+}
+#divLocation table a:hover, #divLocation table a:focus, #divLocation table a:active, #divLanguage table a:hover, #divLanguage table a:focus, #divLanguage table a:active {
+    background-color: #5f493e;    
+    color:#ffffff;
+}
+
+/*END: Location Language*/
+
+
+/*START: Footer List Styles*/
+#footer ul
+{
+    list-style:none;
+    margin:0 280px;
+    padding:0;
+}
+#footer ul li
+{
+    float:left;
+    margin:0;
+    padding:0 10px;
+    background: url(../strucimages/blackBar.gif) no-repeat right center;
+}    
+#footer ul li a
+{
+    color:#000000;
+    text-decoration:none;
+}
+#footer ul li a:link
+{
+    color:#000000;
+    text-decoration:none;
+}
+#footer ul li a:visited
+{
+    color:#000000;
+    text-decoration:none;
+}
+#footer ul li a:visited:hover
+{
+    color:#000000;
+    text-decoration:underline;
+}
+#footer ul li a:hover
+{
+    color:#000000;
+    text-decoration:underline;
+}
+#footer ul li a:active
+{
+    color:#000000;
+    text-decoration:none;
+}
+/*END: Footer List Styles*/
+
+/*
+
+==============================================================
+END LIST & LIST LINK STYLES
+==============================================================
+*/
+ 
+/*
+==============================================================
+HEADER
+==============================================================
+*/
+.headerSearch {
+    border: 0 none transparent;
+    padding: 3px;
+    font-size: 11px;
+}
+ 
+
+ul.expandable li div.imgHolder {display:block;margin:0;padding:0;width:95px;overflow:hidden;float:left;background:none;}

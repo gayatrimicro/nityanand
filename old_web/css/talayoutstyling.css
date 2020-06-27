@@ -1,0 +1,300 @@
+#articleGalleryWrap {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 10px 20px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#articleVideoWrap {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 10px 20px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#articleImageWrap {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 10px 20px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.articleMediaTop {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 6px
+}
+.articleMedia {
+	
+}
+#articleGalleryWrap {
+	BACKGROUND: url(../images/galleryShadowBott.gif) no-repeat left bottom; WIDTH: 189px
+}
+#articleImageWrap {
+	BACKGROUND: url(../images/galleryShadowBott.gif) no-repeat left bottom; WIDTH: 189px
+}
+#articleGalleryWrap .articleMediaTop {
+	BACKGROUND: url(../images/galleryShadowTop.gif) no-repeat left top
+}
+#articleImageWrap .articleMediaTop {
+	BACKGROUND: url(../images/galleryShadowTop.gif) no-repeat left top
+}
+#articleGalleryWrap .articleMedia {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND: url(../images/galleryShadowBody.gif) repeat-y left top; PADDING-BOTTOM: 0px; PADDING-TOP: 4px
+}
+#articleImageWrap .articleMedia {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND: url(../images/galleryShadowBody.gif) repeat-y left top; PADDING-BOTTOM: 0px; PADDING-TOP: 4px
+}
+#articleVideoWrap {
+	BACKGROUND: url(../images/videoShadowBott.gif) no-repeat left bottom; WIDTH: 344px
+}
+#articleVideoWrap .articleMediaTop {
+	BACKGROUND: url(../images/videoShadowTop.gif) no-repeat left top
+}
+#articleVideoWrap .articleMedia {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; BACKGROUND: url(../images/videoShadowBody.gif) repeat-y left top; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.alsoCheckOut UL LI {
+	BACKGROUND: url(../images/orangeArrow.gif) no-repeat 3px 2px
+}
+UL LI.iconPodcast {
+	BACKGROUND: url(../images/iconPodcast.gif) no-repeat 0px 0px
+}
+H3.iconPodcast {
+	BACKGROUND: url(../images/iconPodcast.gif) no-repeat 0px 0px
+}
+UL LI.iconPDF {
+	BACKGROUND: url(../images/iconPDF.gif) no-repeat 0px 0px
+}
+H3.iconPDF {
+	BACKGROUND: url(../images/iconPDF.gif) no-repeat 0px 0px
+}
+UL LI.iconEPS {
+	BACKGROUND: url(../images/iconEPS.gif) no-repeat 0px 0px
+}
+H3.iconEPS {
+	BACKGROUND: url(../images/iconEPS.gif) no-repeat 0px 0px
+}
+UL LI.iconFLV {
+	BACKGROUND: url(../images/iconFLV.gif) no-repeat 0px 0px
+}
+H3.iconFLV {
+	BACKGROUND: url(../images/iconFLV.gif) no-repeat 0px 0px
+}
+UL LI.iconGeneralImages {
+	BACKGROUND: url(../images/iconGeneralImages.gif) no-repeat 0px 0px
+}
+H3.iconGeneralImages {
+	BACKGROUND: url(../images/iconGeneralImages.gif) no-repeat 0px 0px
+}
+UL LI.iconGeneralVideo {
+	BACKGROUND: url(../images/iconGeneralVideo.gif) no-repeat 0px 0px
+}
+H3.iconGeneralVideo {
+	BACKGROUND: url(../images/iconGeneralVideo.gif) no-repeat 0px 0px
+}
+UL LI.iconJPG {
+	BACKGROUND: url(../images/iconJPG.gif) no-repeat 0px 0px
+}
+H3.iconJPG {
+	BACKGROUND: url(../images/iconJPG.gif) no-repeat 0px 0px
+}
+UL LI.iconMP3 {
+	BACKGROUND: url(../images/iconMP3.gif) no-repeat 0px 0px
+}
+H3.iconMP3 {
+	BACKGROUND: url(../images/iconMP3.gif) no-repeat 0px 0px
+}
+UL LI.iconQuickTime {
+	BACKGROUND: url(../images/iconQuicktime.gif) no-repeat 0px 0px
+}
+H3.iconQuickTime {
+	BACKGROUND: url(../images/iconQuicktime.gif) no-repeat 0px 0px
+}
+UL LI.iconRealMedia {
+	BACKGROUND: url(../images/iconRealMedia.gif) no-repeat 0px 0px
+}
+H3.iconRealMedia {
+	BACKGROUND: url(../images/iconRealMedia.gif) no-repeat 0px 0px
+}
+UL LI.iconRSS {
+	BACKGROUND: url(../images/iconRSS.gif) no-repeat 0px 0px
+}
+H3.iconRSS {
+	BACKGROUND: url(../images/iconRSS.gif) no-repeat 0px 0px
+}
+UL LI.iconTIFF {
+	BACKGROUND: url(../images/iconTIFF.gif) no-repeat 0px 0px
+}
+H3.iconTIFF {
+	BACKGROUND: url(../images/iconTIFF.gif) no-repeat 0px 0px
+}
+UL LI.iconWAV {
+	BACKGROUND: url(../images/iconWAV.gif) no-repeat 0px 0px
+}
+H3.iconWAV {
+	BACKGROUND: url(../images/iconWAV.gif) no-repeat 0px 0px
+}
+UL LI.iconWMV {
+	BACKGROUND: url(../images/iconWMV.gif) no-repeat 0px 0px
+}
+H3.iconWMV {
+	BACKGROUND: url(../images/iconWMV.gif) no-repeat 0px 0px
+}
+UL LI.iconWORD {
+	BACKGROUND: url(../images/iconWORD.gif) no-repeat 0px 0px
+}
+H3.iconWORD {
+	BACKGROUND: url(../images/iconWORD.gif) no-repeat 0px 0px
+}
+UL LI.iconXLS {
+	BACKGROUND: url(../images/iconXLS.gif) no-repeat 0px 0px
+}
+H3.iconXLS {
+	BACKGROUND: url(../images/iconXLS.gif) no-repeat 0px 0px
+}
+UL LI.iconVIO {
+	BACKGROUND: url(../images/iconVIO.gif) no-repeat 0px 0px
+}
+H3.iconVIO {
+	BACKGROUND: url(../images/iconVIO.gif) no-repeat 0px 0px
+}
+H3.iconPodcast {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconPDF {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconEPS {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconFLV {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconGeneralImages {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconGeneralVideo {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconJPG {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconMP3 {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconQuickTime {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconRealMedia {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconRSS {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconTIFF {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconWAV {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconWMV {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconWORD {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconXLS {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+H3.iconVIO {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 3px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#featuredBox {
+	MARGIN: 23px 0px 0px
+}
+#featuredBox .rhsModulesContent {
+	MIN-HEIGHT: 185px; BACKGROUND: url(../images/featuredBoxBgBott.jpg) #efefef no-repeat left bottom; HEIGHT: 185px
+}
+#featuredBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-special.gif) #9c340b repeat-x left top
+}
+#featuredBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-special.png)
+}
+#featuredBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-special.gif)
+}
+.blackBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-black.gif) #2b2b2b repeat-x left top
+}
+.blackBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-black.png)
+}
+.blackBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-black.gif)
+}
+.greenBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-green.gif) #064519 repeat-x left top
+}
+.greenBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-green.png)
+}
+.greenBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-green.gif)
+}
+.blueBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-blue.gif) #182d56 repeat-x left top
+}
+.blueBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-blue.png)
+}
+.blueBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-blue.gif)
+}
+.orangeBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-orange.gif) #b45203 repeat-x left top
+}
+.orangeBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-orange.png)
+}
+.orangeBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-orange.gif)
+}
+.tealBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-teal.gif) #184746 repeat-x left top
+}
+.tealBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-teal.png)
+}
+.tealBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-teal.gif)
+}
+.redBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-red.gif) #820101 repeat-x left top
+}
+.redBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-red.png)
+}
+.redBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-red.gif)
+}
+.greyBox .rhsModulesHeading {
+	BACKGROUND: url(../images/rhsHeadingBg-grey.gif) #820101 repeat-x left top
+}
+.greyBox .rhsIcon {
+	BACKGROUND-IMAGE: url(../images/rhsIcon-grey.png)
+}
+.greyBox .rhsModulesHeading H3 {
+	BACKGROUND-IMAGE: url(../images/rhsHeadingCurve-grey.gif)
+}
+ HTML #featuredBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-special.png", sizingMethod="crop"
+}
+ HTML .blackBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-black.png", sizingMethod="crop"
+}
+ HTML .greenBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-green.png", sizingMethod="crop"
+}
+ HTML .blueBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-blue.png", sizingMethod="crop"
+}
+ HTML .orangeBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-orange.png", sizingMethod="crop"
+}
+ HTML .tealBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-teal.png", sizingMethod="crop"
+}
+ HTML .redBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-red.png", sizingMethod="crop"
+}
+ HTML .greyBox .rhsIcon {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/rhsIcon-grey.png", sizingMethod="crop"
+}

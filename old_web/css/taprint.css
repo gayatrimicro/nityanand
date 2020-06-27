@@ -1,0 +1,83 @@
+BODY {
+	FONT-FAMILY: tahoma, arial
+}
+.rhsModulesWrap {
+	DISPLAY: none
+}
+#mainNavSubscribeContainer {
+	DISPLAY: none
+}
+#mastHeadStripLinks {
+	DISPLAY: none
+}
+#skipNav {
+	DISPLAY: none
+}
+#footerContainer UL {
+	DISPLAY: none
+}
+.paginationWrap {
+	DISPLAY: none
+}
+#searchModuleBox {
+	DISPLAY: none
+}
+#secondaryNavigation {
+	DISPLAY: none
+}
+.galleryPagination {
+	DISPLAY: none
+}
+#tertiaryNavigation {
+	DISPLAY: none
+}
+H1 {
+	FONT-WEIGHT: normal
+}
+H2 {
+	FONT-WEIGHT: normal
+}
+H3 {
+	FONT-WEIGHT: normal
+}
+#headerContainer {
+    width: 999px; 
+    margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+    padding: 0;
+    text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+#headLeft{width:70%}
+#headRight{width:30%}
+#header {
+    width:999px; 
+    margin:0;    
+    /*_margin-left:1px;*/
+}
+#header.dark {
+    background: #262626;
+}
+#homeNavArea {    
+    position:absolute;
+    z-index:300;
+    left:16px;
+    top:-90px;
+    width:665px;
+    overflow:hidden;
+    padding: 0 7px 0 6px;  
+    margin:0;  
+}
+
+
+
+#homeNavArea li div + div {
+    line-height:33px;
+    vertical-align:middle;
+}
+#homeNavReflection {
+    width:678px;
+    height:41px;
+    overflow:hidden;
+    position:relative;
+    left:-6px;
+}

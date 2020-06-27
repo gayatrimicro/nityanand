@@ -1,0 +1,194 @@
+﻿body.home {
+    background:  #ffffff url(../strucimages/homepageBg.jpg) no-repeat top center;
+}
+.homeMain {
+    padding-top:60px;
+    background: #FFFFFF url(../strucimages/mainContentBg.gif) no-repeat;
+}
+
+.homeSubRightColumn {
+	float:right;
+	width:261px;
+	overflow:hidden;
+	margin-top:10px;
+}
+    
+.homeSubLeftColumn {
+    float:left;
+    width:330px;
+    overflow:hidden;
+}
+
+
+.homeMain .subTop {
+    width:320px;
+    padding-left:10px;
+    padding-top:10px;
+    height:37px;
+}
+.homeMain .subMid {
+    width:320px;
+    padding-left:10px;
+    overflow:hidden;
+    height:100%;
+}
+.homeMain .subBottom {
+    width:320px;
+    padding-left:10px;
+    height:47px;
+}
+
+.homeMain .subMid .itemHolder .itemText {
+    margin:0;
+    padding:4px 0px 4px 0px;
+}
+.homeMain .subMid .itemHolder .itemText p {
+    margin:0;
+    padding:2px 0px 2px 0px;
+    line-height:1.45em;
+    font-weight:normal;
+    position:relative;
+}    
+.homeMain .subMid .itemHolder .photoHolder {
+    float:left;
+    padding:0px 10px 0px 3px;
+}
+.homeMain .subMid .itemHolder .leader {
+    float:left;
+    padding-right:15px;
+    width:180px;
+}
+
+
+.homeSubTop {
+    width:320px;
+    padding-left:10px;
+    padding-top:10px;
+    height:37px;
+    background: url(../strucimages/homeSubLeftTopBg.png) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/homeSubLeftTopBg.png',sizingMethod='scale');
+}
+
+.homeSubMid {
+    width:320px;
+    padding-left:10px;
+    overflow:hidden;
+    height:100%;
+    background: url(../strucimages/homeSubLeftBg.png) repeat-y;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/homeSubLeftBg.png',sizingMethod='scale');
+}
+.homeSubBottom {
+    width:320px;
+    padding-left:10px;
+    height:47px;    
+    background: url(../strucimages/homeSubLeftBottomBg.png) repeat-y;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='strucimages/homeSubLeftBottomBg.png',sizingMethod='scale');
+}
+.homeSubMid .itemHolder .itemText {
+    margin:0;
+    padding:4px 0px 4px 0px;
+}
+.homeSubMid .itemHolder .itemText p {
+    margin:0;
+    padding:2px 0px 2px 0px;
+    line-height:1.45em;
+    font-weight:normal;
+    position:relative;
+}    
+.homeSubMid .itemHolder .photoHolder {
+    float:left;
+    padding:0px 10px 0px 3px;
+}
+.homeSubMid .itemHolder .leader {
+    float:left;
+    padding-right:15px;
+    width:180px;
+}
+
+/*Home main nav*/
+ul.homeMainNav {
+    margin:0;
+    padding:1px;
+    height:121px;
+    width:663px;
+    overflow:hidden;
+    background:#ffffff;
+}
+ul.homeMainNav li {
+    float:left;
+    list-style-type:none;
+    width:165px;
+    height:121px;
+    color:#ffffff;
+    text-align:right;
+    margin:0 1px 0 0;
+}
+ul.homeMainNav li div.homeNavImage {
+    width:165px;
+    height:88px;
+    overflow:hidden;
+}
+ul.homeMainNav li div.homeNavGreenBg {
+    width:140px;
+    height:22px;
+    overflow:hidden;
+    color:#ffffff;
+    background: url(../strucimages/greenBg.jpg) no-repeat;
+    text-align:right;
+    padding: 11px 25px 0 0;
+}
+ul.homeMainNav li div.homeNavBrownBg {
+    width:140px;
+    height:22px;
+    overflow:hidden;
+    color:#ffffff;
+    background: url(../strucimages/brownBg.jpg) no-repeat;
+    text-align:right;
+    padding: 11px 25px 0 0;
+}
+ul.homeMainNav li div.homeNavBlueBg {
+    width:140px;
+    height:22px;
+    overflow:hidden;
+    color:#ffffff;
+    background: url(../strucimages/blueBg.jpg) no-repeat;
+    text-align:right;
+    padding: 11px 25px 0 0;
+}
+ul.homeMainNav li div.homeNavRedBg {
+    width:140px;
+    height:22px;
+    overflow:hidden;
+    color:#ffffff;
+    background: url(../strucimages/redBg.jpg) no-repeat;
+    text-align:right;
+    padding: 11px 25px 0 0;
+}
+ul.homeMainNav li div a {
+    color:#ffffff;
+    font-weight:bold;
+    text-decoration:none;
+}
+ul.homeMainNav li div a:hover {
+    color:#ffffff;
+    text-decoration:underline;
+}
+ 
+
+#bodyContainer #homeNavArea ul#homeNav li div.homeNavGreenBg a,
+#bodyContainer #homeNavArea ul#homeNav li div.homeNavBrownBg a,
+#bodyContainer #homeNavArea ul#homeNav li div.homeNavBlueBg a,
+#bodyContainer #homeNavArea ul#homeNav li div.homeNavRedBg a {
+    display:block;
+    font-size:1.2em;
+    font-size:0.99em;    
+    line-height:33px;
+    position:relative;
+    top:-10px;
+    margin-bottom:10px;
+    overflow:visible;
+    vertical-align:middle;
+}

@@ -1,0 +1,199 @@
+﻿@charset "utf-8";
+/* 
+Author: Gayatri Microsystems
+Created: 20/03/2009
+*/
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+}
+
+/* ---------- Hide the following to prevent display in Print Preview and from printing ----------*/
+#banner,
+#bannerShadow,
+.btnMap,
+div.floatRight,
+div.pagination,
+#frmSearch,
+#listViewTab,
+#footer,
+#headerContainer,
+#header,
+#headerNav,
+#homeNavArea,
+#homeSubRightColumn,
+input.charcoalMapBg,
+.itemText p a,
+.mainNavLarge,
+#mapViewTab,
+#planHoliday,
+.rightColumn,
+#specialOffers,
+.mainNav {
+    display:none;
+}
+/* ---------- End Hide Items ---------- */
+.homeSubMid {
+    margin-top:10px;
+}
+.homeSubLeftColumn {
+    float:left;
+    width:320px;
+}
+.itemHeader {
+    font-weight:bold;
+    height:16px;
+    clear:right;
+}
+.itemText {
+    font-size:11px;
+}
+.itemHeader,
+.itemText {
+    float:left;
+    width:180px;
+    padding:0 0 0 10px;
+    position:relative;
+    top:-12px;
+}
+.redHeading,
+.blueHeading {
+    font-size:12px;
+    font-weight:bold;
+}
+.itemHolder .photoHolder {
+    float:left;
+    width:84px;
+}
+.leftColumn {
+    float: none;
+}
+
+.threeColSubColumn {
+    float:left;
+    width:313px;
+    overflow:hidden;
+}
+.noPic p {
+    position:relative; 
+    color:#000000;
+    font-size:11px;
+    line-height:1.65em;
+    padding:0 5px 5px 5px;
+    margin:0;
+}
+.picCol {
+    position:relative; 
+    float:left;
+    width:179px;
+    overflow:hidden;
+}
+.picHolder {
+    position:relative; 
+    width:177px;
+    overflow:hidden;
+    border:1px solid #000000;
+}
+.picHolderAgent {
+    border:1px solid #000000;
+    border:1px 1px 0 1px;
+    width:100px;
+}
+.nopicHolderAgent {
+    border:0;
+    height:67px;
+    padding:13px 0 0 0;
+    text-align:center;
+    width:110px;
+}
+div.picCaption {
+    font-size:11px;
+    font-weight:bold;
+}
+.textCol {
+    float:left;
+    padding:0 0 0 20px;
+    width:415px;
+}
+.textCol p {
+    position:relative; 
+    color:#000000;
+    font-size:11px;
+    line-height:1.65em;
+    padding:5px 0;
+    margin:0;
+    clear:both;
+}
+div.itemText p {
+    clear:both;
+}
+ul.starRating {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+ul.starRating li {
+    float:left;
+}
+ 
+.subMid .itemHolder .photoHolder {
+    float:left;
+    padding:0px 10px 0px 3px;
+}
+.subMid .itemHolder .leader {
+    float:left;
+    padding-right:15px;
+    width:180px;
+} 
+
+*html .subTop {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    padding-top:10px;
+    height:37px;
+}
+.homeSubLeftColumn > .subMid {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    overflow:hidden;
+
+}
+.threeColSubColumn > .subMid {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    overflow:hidden;
+
+}
+*html .subMid {
+    width:300px;
+    padding-left:10px;
+    overflow:hidden;
+
+}
+.homeSubLeftColumn > .subBottom {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    height:47px;
+
+}
+.threeColSubColumn > .subBottom {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    height:47px;
+
+}
+*html .subBottom {
+        position:relative;
+    width:300px;
+    padding-left:10px;
+    height:47px;
+}
+
+.clear {
+    clear:both;
+}
