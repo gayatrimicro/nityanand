@@ -248,7 +248,7 @@ Over the years, Swami Muktananda and Gurumayi Chidvilasananda have continually e
 <script type="text/javascript">
  
     jQuery(window).load(function(){
-		 subNav();
+		 // subNav();
       jQuery('.flexslider').flexslider({
         animation: "fade",
         controlNav: true,              
@@ -262,38 +262,38 @@ slideshow: false,
     });
 	
 		
-	  function subNav() { 
+// 	  function subNav() { 
 
-    jQuery(".subNavContent li").hide();
-    jQuery(".subNavContent li:first").fadeIn();
-    jQuery(".subNavItems li:first a").css('opacity', 1);
-    jQuery(".subNavItems li a").on('click', function(e) {
+//     jQuery(".subNavContent li").hide();
+//     jQuery(".subNavContent li:first").fadeIn();
+//     jQuery(".subNavItems li:first a").css('opacity', 1);
+//     jQuery(".subNavItems li a").on('click', function(e) {
        
-       var itemClass = jQuery(this).attr('class');
+//        var itemClass = jQuery(this).attr('class');
        
-        jQuery(".subNavItems li a").css('opacity', 0.35);
-        jQuery(this).css('opacity', 1);
+//         jQuery(".subNavItems li a").css('opacity', 0.35);
+//         jQuery(this).css('opacity', 1);
         
-         jQuery(".subNavContent li").hide();
+//          jQuery(".subNavContent li").hide();
          
-         jQuery('.subNavContent .' + itemClass + '').fadeIn();
+//          jQuery('.subNavContent .' + itemClass + '').fadeIn();
                  
                          
-        e.preventDefault();
+//         e.preventDefault();
         
         
-    });
+//     });
 	
-	 /*   jQuery(".subNav2").on('click', function(e) {
-         jQuery('#poojan').fadeIn();
-        e.preventDefault();
-    });
-	  jQuery(".subNav1,.subNav3,.subNav4").on('click', function(e) {
-         jQuery('#poojan').hide();
-        e.preventDefault();
-    });*/
+// 	 /*   jQuery(".subNav2").on('click', function(e) {
+//          jQuery('#poojan').fadeIn();
+//         e.preventDefault();
+//     });
+// 	  jQuery(".subNav1,.subNav3,.subNav4").on('click', function(e) {
+//          jQuery('#poojan').hide();
+//         e.preventDefault();
+//     });*/
 
-}
+// }
  
   </script> 
 <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.18'></script> 
