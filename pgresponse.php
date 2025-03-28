@@ -1,6 +1,6 @@
 <?php include("pgconfig.php"); ?>
 
-<?php 
+<?php
 $transactionTypeCode=$_POST["transaction_type_code"];
 $installments=$_POST["installments"];
 $transactionId=$_POST["transaction_id"];
@@ -30,7 +30,7 @@ if ($messageHash==$messageHashClient){
   $hashMatch=true;
 } else {
   $hashMatch=false;
-} 
+}
 ?>
 
 
@@ -91,37 +91,37 @@ color: #8B847C;
     font-size: 15px;
     line-height: 25px;
     padding-right: 30px;
-    text-shadow: 1px 1px 0 #FFFFFF;	
+    text-shadow: 1px 1px 0 #FFFFFF;
 }
 </style>
 
 <!--[if IE 8]>
 <style type="text/css">
-   
+
    .button-big, .button-small, .portfolio_cats a, .pagination a, .pagination .current, .portfolio_previous a, .portfolio_next a  { color: #fff !important; }
    .main ul li a .description { font-size: 12px; }
-   
+
 </style>
 <![endif]-->
 
 <!--[if IE 7]>
 <style type="text/css">
-   
+
 	 .button-big, .button-small, .portfolio_cats a, .pagination a, .pagination .current, .portfolio_previous a, .portfolio_next a  { color: #fff !important; }
    .main ul li a .description { font-size: 12px; }
-    
+
    }
-   
+
 </style>
 <![endif]-->
 
 <!--[if IE 6]>
 <style type="text/css">
-   
+
 	 .button-big, .button-small, .portfolio_cats a, .pagination a, .pagination .current, .portfolio_previous a, .portfolio_next a  { color: #fff !important; }
    .main ul li a .description { font-size: 12px; }
    }
-   
+
 </style>
 <![endif]-->
 
@@ -151,7 +151,7 @@ text-align: left;
             <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="history.html">History</a></li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="daily.html">Daily Schedule</a></li>
              <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="poojan.html">Poojan</a></li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="trustees.html">Trustees</a></li>
+            <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="trustees.html">Trustees</a></li> -->
             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="ganeshpuri.html">About Ganeshpuri</a></li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="performance-report.html">Performance Report</a></li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="green-revolution.html">Green Revolution </a></li>
@@ -160,7 +160,7 @@ text-align: left;
         </li>
         <li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="accomodation.html"><span class="title">Facilities & Accomodations</span></a>
           <ul class="sub-menu">
-          
+
             <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="accomodation.html">Accommodations</a></li>
             <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="refreshment.html">Refreshment Units</a></li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="medical.html">Medical Facility</a></li>
@@ -168,7 +168,7 @@ text-align: left;
             <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="ambiance.html">Ambience</a></li>
             <li  class="menu-item menu-item-type-custom menu-item-object-custom"><a href="activity.html">The Children's Programme and Activities
 </a></li>
-         
+
           </ul>
         </li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page "><a href="about.html"><span class="title">About Baba</span></a>
@@ -201,7 +201,7 @@ text-align: left;
 
 
 <table>
-	<tr> 
+	<tr>
 		<td valign="top" align="left">
 			<?
 				if("50020"==$status) {
@@ -214,16 +214,16 @@ text-align: left;
 			?>
 		</td>
 	</tr>
-	<tr> 
+	<tr>
 		<td valign="top" class="mainText">
-			<table border="1" width="400" align="left">	
-			
-			
-								 
+			<table border="1" width="400" align="left">
+
+
+
 			</table>
 		</td>
 	</tr>
-	<tr> 
+	<tr>
 		<td valign="top" align="left">
 			<a href="donate.html">Donate Again</a>
 		</td>
@@ -232,8 +232,8 @@ text-align: left;
 
 </div>
       </div>
-      
-      
+
+
     </div>
   </div>
 </div>
@@ -260,25 +260,25 @@ text-align: left;
   </div>
 </div>
 <script type="text/javascript">
- 
+
     jQuery(window).load(function(){
       jQuery('.flexslider').flexslider({
         animation: "fade",
         controlNav: true,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
-directionNav: true, 
+directionNav: true,
 slideshow: false,
         start: function(slider){
           jQuery('body').removeClass('loading');
         }
       });
-	   
-	  
-	  
+
+
+
     });
 
-  </script> 
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.18'></script> 
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.1'></script> 
+  </script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.18'></script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.1'></script>
 <script type='text/javascript' src='wp-includes/js/hoverIntent.min.js?ver=r6'></script>
 </body>
 </html>
