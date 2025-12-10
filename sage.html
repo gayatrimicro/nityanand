@@ -184,28 +184,42 @@ Miracles and divine experiences have touched numerous devotees who have approach
     </div>
   </div>
 </div>
-<footer>
-  <div class="container">
-    <div class="four columns">
-      <div class="churchLocation clearfix">
-        <h3 class="locationIcon">OUR LOCATION</h3>
-        <div class="churchInfoDetails"><span></span> <span>At Post - Ganeshpuri, Tal-Bhiwandi</span><span>Dist. Thane, Pin - 401 206. </span> <span>Maharashtra. INDIA.</span><!-- <span>Rakesh Yadav (Chief Manager & PRO)</span> --><span>Office: 7770015715 <br> Reception: 7770015717</span></div>
-      </div>
-    </div>
-    <div class="twelve columns">
-      <h3>BHAGWAN NITYANAND</h3>
-      <img alt="" style="float: left; margin: 15px 20px 20px 0;" src="images/assets/1.png" />
-      <p style="margin-top: 35px;">The great guru Swami Nityanand sanctified Ganeshpuri. The place is so beautiful - so tranquil and serene that as soon as you enter the temple you feel the world slipping away and calm &amp; serenity descending on you.</p>
-      <p><b>Nitya-Eternal, Ananda-Bliss</b> - Eternal Bliss took a body and was known as Bhagwan Nityanand.</p>
-    </div>
-  </div>
-</footer>
-<div class="smallFooter">
-  <div class="container">
-    <div class="eight columns smallFooterLeft">SHREE BHIMESHWAR SADGURU NITYANAND SANSTHA 2013. ALL RIGHTS RESERVED.</div>
-    <div class="eight columns smallFooterRight">RESPONSIVE WEB DESIGN BY <a href="http://gayatrimicrosystems.com" target="blank"> Gayatri Microsystems</a></div>
-  </div>
+<!-- Dynamic Footer -->
+<div id="footerdiv">
+    <!-- Content will be loaded here -->
 </div>
+<script>
+    // Get the element where you want to insert the content
+    const headerMenuContainer = document.getElementById("footerdiv");
+
+    // Check if the container element actually exists before trying to load content
+    if (headerMenuContainer) {
+        // Use the fetch API to get the contents of header.html
+        fetch('footer.html')
+            .then(response => {
+                // Check if the request was successful (e.g., status 200 OK)
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+                // Parse the response body as plain text
+                return response.text();
+            })
+            .then(htmlContent => {
+                // Insert the retrieved HTML content into the div
+                headerMenuContainer.innerHTML = htmlContent;
+                const yearSpan = document.getElementById("footeryear");
+                    if (yearSpan) {
+                        yearSpan.textContent = new Date().getFullYear();
+                    }
+            })
+            .catch(error => {
+                // Handle any errors that occurred during the fetch operation
+                console.error('There has been a problem with your fetch operation:', error);
+                headerMenuContainer.innerHTML = "<p>Error loading Footer.</p>";
+            });
+    }
+</script>
+<!-- Dynamic Footer -->
 <script type="text/javascript">
  
     jQuery(window).load(function(){
