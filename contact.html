@@ -26,8 +26,8 @@
 
 <!-- Google Fonts -->
 
-<link href='http://fonts.googleapis.com/css?family=Copse|Courgette|Oswald:400,300,700|Droid+Serif:400,700,400italic,700italic|Droid+Sans:400,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Copse|Courgette|Oswald:400,300,700|Droid+Serif:400,700,400italic,700italic|Droid+Sans:400,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,13 +36,14 @@
 <link rel="shortcut icon" href="images/favicon.ico">
 <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.3.1' type='text/css' media='all' />
 <link rel='stylesheet' id='taxonomy-image-plugin-public-css'  href='wp-content/plugins/taxonomy-images/style.css?ver=0.7.3' type='text/css' media='screen' />
-<script type='text/javascript' src='wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
-<script type='text/javascript' src='wp-content/themes/nityanand/js/script.js?ver=3.5'></script>
-<script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.prettyPhoto.js?ver=3.5'></script>
-<script type='text/javascript' src='wp-content/themes/nityanand/js/jPlayer/js/jquery.jplayer.min.js?ver=3.5'></script>
-<script type='text/javascript' src='wp-content/themes/nityanand/js/superfish.js?ver=3.5'></script>
-<script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.flexslider-min.js?ver=3.5'></script>
-<script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.fitvids.js?ver=3.5'></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- <script type='text/javascript' src='wp-includes/js/jquery/jquery.js?ver=1.8.3'></script> -->
+<!-- <script type='text/javascript' src='wp-content/themes/nityanand/js/script.js?ver=3.5'></script> -->
+<!-- <script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.prettyPhoto.js?ver=3.5'></script> -->
+<!-- <script type='text/javascript' src='wp-content/themes/nityanand/js/jPlayer/js/jquery.jplayer.min.js?ver=3.5'></script> -->
+<!-- <script type='text/javascript' src='wp-content/themes/nityanand/js/superfish.js?ver=3.5'></script> -->
+<!-- <script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.flexslider-min.js?ver=3.5'></script> -->
+<!-- <script type='text/javascript' src='wp-content/themes/nityanand/js/jquery.fitvids.js?ver=3.5'></script> -->
 <style type="text/css">
 .recentcomments a {
 	display:inline !important;
@@ -87,6 +88,31 @@
 }
 .pageContent a:hover {
  color:;
+}
+.wpcf7-form-control{
+    border: 1px solid #ccc;
+    padding: 6px 4px;
+    outline: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font: 13px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    margin: 0;
+    width: 210px;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    background: #fff;
+    width: 100% ! important;
+    color: black;
+
+}
+#book_appnewsubmit
+{
+  cursor: pointer;
+      color: black;
+    font-size: 18px;
 }
 </style>
 </head>
@@ -159,34 +185,48 @@ receiving advanced notification of any event.
 </div>
       </div>
       <div class="eight columns">
-        <div id="wpcf7-f166-p95-o1" class="wpcf7">
-          <form class="wpcf7-form" method="post" action="#">
-            <div style="display: none;">
-              <input type="hidden" value="166" name="_wpcf7">
-              <input type="hidden" value="3.3.1" name="_wpcf7_version">
-              <input type="hidden" value="wpcf7-f166-p95-o1" name="_wpcf7_unit_tag">
-              <input type="hidden" value="8c6b824ebc" name="_wpnonce">
-            </div>
+        <div >
+          <form method="post" id="book_appnew">
+            
             <p>Your Name (required)<br>
               <span class="wpcf7-form-control-wrap your-name">
-              <input type="text" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" value="" name="your-name">
-              </span> </p>
+              <input type="text" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="fname" name="fname" required>
+              </span> 
+              <span id="mesg-er-fname"></span>
+            </p>
             <p>Your Email (required)<br>
               <span class="wpcf7-form-control-wrap your-email">
-              <input type="text" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" value="" name="your-email">
-              </span> </p>
+              <input type="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="email" name="email" required>
+              </span> 
+              <span id="mesg-er-email"></span>
+            </p>
             <p>Subject<br>
               <span class="wpcf7-form-control-wrap your-subject">
-              <input type="text" size="40" class="wpcf7-form-control wpcf7-text" value="" name="your-subject">
-              </span> </p>
+              <input type="text" size="40" class="wpcf7-form-control wpcf7-text" id="subject" name="subject">
+              </span> 
+            </p>
+            <span id="mesg-er-subject"></span>
             <p>Your Message<br>
               <span class="wpcf7-form-control-wrap your-message">
-              <textarea rows="10" cols="40" class="wpcf7-form-control  wpcf7-textarea" name="your-message"></textarea>
-              </span> </p>
+              <textarea rows="10" cols="40" class="wpcf7-form-control  wpcf7-textarea" id="description_message" name="msg"></textarea>
+              </span> 
+              <span id="mesg-er-desc-book-app"></span>
+            </p>
+            <div class="captcha-form" style="width:100%;margin-bottom:30px;">
+              <span class="wpcf7-form-control-wrap" data-name="your-number">
+                 <input id="digits2" min="0" style="width:100%;" placeholder="Enter the code shown below" class="wpcf7-form-control wpcf7-text" type="number" maxlength="8">
+              </span>
+
+              <canvas id="canvas2" width="290" height="40">Your browser does not support canvas</canvas>
+              <h6 style="display: none;" id="form-error"></h6>
+              <h6 style="display: none;" id="captchaerror">
+              </h6>
+           </div>
             <p>
-              <input type="submit" class="wpcf7-form-control  wpcf7-submit" value="Send">
-              <img class="ajax-loader" src="http://themes.danyduchaine.com/thegoodnews/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
-            <div class="wpcf7-response-output wpcf7-display-none"></div>
+              <input type="submit" class="wpcf7-form-control  contact-page-btn" value="Send" id="book_appnewsubmit">
+              
+            </p>
+            <div class="wpcf7-response-output rt-success-message"></div>
           </form>
         </div>
       </div>
@@ -203,35 +243,35 @@ receiving advanced notification of any event.
     <!-- Content will be loaded here -->
 </div>
 <script>
-    // Get the element where you want to insert the content
-    const headerMenuContainer = document.getElementById("footerdiv");
+    // // Get the element where you want to insert the content
+    // const headerMenuContainer = document.getElementById("footerdiv");
 
-    // Check if the container element actually exists before trying to load content
-    if (headerMenuContainer) {
-        // Use the fetch API to get the contents of header.html
-        fetch('footer.html')
-            .then(response => {
-                // Check if the request was successful (e.g., status 200 OK)
-                if (!response.ok) {
-                    throw new Error('Network response was not ok: ' + response.statusText);
-                }
-                // Parse the response body as plain text
-                return response.text();
-            })
-            .then(htmlContent => {
-                // Insert the retrieved HTML content into the div
-                headerMenuContainer.innerHTML = htmlContent;
-                const yearSpan = document.getElementById("footeryear");
-                    if (yearSpan) {
-                        yearSpan.textContent = new Date().getFullYear();
-                    }
-            })
-            .catch(error => {
-                // Handle any errors that occurred during the fetch operation
-                console.error('There has been a problem with your fetch operation:', error);
-                headerMenuContainer.innerHTML = "<p>Error loading Footer.</p>";
-            });
-    }
+    // // Check if the container element actually exists before trying to load content
+    // if (headerMenuContainer) {
+    //     // Use the fetch API to get the contents of header.html
+    //     fetch('footer.html')
+    //         .then(response => {
+    //             // Check if the request was successful (e.g., status 200 OK)
+    //             if (!response.ok) {
+    //                 throw new Error('Network response was not ok: ' + response.statusText);
+    //             }
+    //             // Parse the response body as plain text
+    //             return response.text();
+    //         })
+    //         .then(htmlContent => {
+    //             // Insert the retrieved HTML content into the div
+    //             headerMenuContainer.innerHTML = htmlContent;
+    //             const yearSpan = document.getElementById("footeryear");
+    //                 if (yearSpan) {
+    //                     yearSpan.textContent = new Date().getFullYear();
+    //                 }
+    //         })
+    //         .catch(error => {
+    //             // Handle any errors that occurred during the fetch operation
+    //             console.error('There has been a problem with your fetch operation:', error);
+    //             headerMenuContainer.innerHTML = "<p>Error loading Footer.</p>";
+    //         });
+    // }
 </script>
 <!-- Dynamic Footer -->
 <script type="text/javascript">
@@ -255,5 +295,192 @@ slideshow: false,
 <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.18'></script> 
 <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.3.1'></script> 
 <script type='text/javascript' src='wp-includes/js/hoverIntent.min.js?ver=r6'></script>
+
+<script>
+$(document).ready(function () {
+    // Get the element where you want to insert the content
+    var $footerContainer = $("#footerdiv");
+
+    // Check if the container exists
+    if ($footerContainer.length) {
+        $.ajax({
+            url: "footer.html",
+            method: "GET",
+            dataType: "html",
+            success: function (htmlContent) {
+                // Insert the retrieved HTML
+                $footerContainer.html(htmlContent);
+
+                // Set current year
+                var $yearSpan = $("#footeryear");
+                if ($yearSpan.length) {
+                    $yearSpan.text(new Date().getFullYear());
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error("There has been a problem loading the footer:", error);
+                $footerContainer.html("<p>Error loading Footer.</p>");
+            }
+        });
+    }
+});
+</script>
+
+<script>
+$(document).ready(function () {
+
+  /* =========================
+     CAPTCHA
+  ========================= */
+  const captcha = {};
+
+  captcha.generate = function () {
+    const number = Math.floor(Math.random() * 1000000);
+    sessionStorage.setItem("captnum2", number);
+    captcha.draw(number);
+  };
+
+  captcha.draw = function (text) {
+    const canvas = document.getElementById("canvas2");
+    if (!canvas) return;
+
+    const ctx = canvas.getContext("2d");
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.font = "20px Arial";
+    ctx.fillStyle = "#000";
+    ctx.fillText(text, canvas.width / 3, canvas.height / 1.5);
+
+    for (let i = 0; i < canvas.width; i += 10) {
+      ctx.beginPath();
+      ctx.moveTo(0, i);
+      ctx.lineTo(canvas.width, i);
+      ctx.strokeStyle = "rgba(0,0,0,0.3)";
+      ctx.stroke();
+    }
+
+    for (let j = 0; j < canvas.width; j += 10) {
+      ctx.beginPath();
+      ctx.moveTo(j, 0);
+      ctx.lineTo(j, canvas.height);
+      ctx.strokeStyle = "rgba(0,0,0,0.3)";
+      ctx.stroke();
+    }
+  };
+
+  captcha.generate();
+
+  /* =========================
+     HELPERS
+  ========================= */
+  function isEmpty(value) {
+    return !value || value.trim() === "";
+  }
+
+  function validateField(input, errorSpan, message) {
+    if (isEmpty(input.val())) {
+      errorSpan.text(message).show();
+      return false;
+    }
+    errorSpan.text("").hide();
+    return true;
+  }
+
+  /* =========================
+     FORM SUBMIT
+  ========================= */
+  $("#book_appnew").on("submit", function (e) {
+    e.preventDefault(); // ⛔ stop page reload
+
+    let isValid = true;
+
+    isValid &= validateField(
+      $("#fname"),
+      $("#mesg-er-fname"),
+      "Name is required"
+    );
+
+    isValid &= validateField(
+      $("#email"),
+      $("#mesg-er-email"),
+      "Email is required"
+    );
+
+    isValid &= validateField(
+      $("#subject"),
+      $("#mesg-er-subject"),
+      "Subject is required"
+    );
+
+    isValid &= validateField(
+      $("#description_message"),
+      $("#mesg-er-desc-book-app"),
+      "Message is required"
+    );
+
+    /* CAPTCHA check */
+    const enteredCaptcha = $("#digits2").val();
+    const actualCaptcha = sessionStorage.getItem("captnum2");
+
+    if (enteredCaptcha !== actualCaptcha) {
+      $("#captchaerror")
+        .text("Invalid captcha code")
+        .show();
+      isValid = false;
+    } else {
+      $("#captchaerror").hide();
+    }
+
+    if (!isValid) return;
+
+    /* =========================
+       AJAX SUBMIT
+    ========================= */
+    $.ajax({
+      url: "contact-data.php",
+      type: "POST",
+      data: $("#book_appnew").serialize(),
+      beforeSend: function () {
+        $("#book_appnewsubmit")
+          .val("Sending...")
+          .prop("disabled", true);
+      },
+      success: function (res) {
+        console.log(res);
+        if (res == "success") {
+          $(".rt-success-message")
+            .text("Thank you for your enquiry.")
+            .fadeIn();
+
+          $("#book_appnew")[0].reset();
+        } else {
+          $(".rt-success-message")
+            .text("Something went wrong. Please try again.")
+            .fadeIn();
+        }
+
+        setTimeout(() => {
+          $(".rt-success-message").fadeOut();
+        }, 3000);
+      },
+      error: function () {
+        alert("Server error. Please try again later.");
+      },
+      complete: function () {
+        $("#book_appnewsubmit")
+          .val("Send")
+          .prop("disabled", false);
+
+        captcha.generate(); // refresh captcha
+      }
+    });
+  });
+
+});
+</script>
+
 </body>
 </html>
