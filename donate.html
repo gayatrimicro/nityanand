@@ -226,6 +226,85 @@
       }
 
     }
+
+
+    /*QRcode and details*/
+    .qr-section {
+      padding: 20px 0px;
+    }
+
+    .qr-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .qr-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 20px;
+      min-height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .qr-card img {
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .qr-card p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .pageContent h3 {
+        font-size: 20px !important;
+        line-height: 22px !important;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    .qr-card p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    .qr-heading
+    {
+      font-size: 24px !important;
+      line-height: 22px !important;
+      text-transform: capitalize;
+      word-spacing: normal;
+      color: #EF7837 !important;
+      margin-bottom: 20px;
+      display: block;
+    }
+    /* 📱 Mobile View */
+    @media (max-width: 768px) {
+      .qr-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .qr-card {
+        min-height: auto;
+        padding: 30px 20px;
+      }
+
+      .qr-card img {
+        max-width: 250px; /* bigger for mobile visibility */
+      }
+      .qr-heading
+      {
+        line-height: 30px !important;
+      }
+    }
+    /*QRcode and details*/
   </style>
 </head>
 
@@ -343,7 +422,7 @@
               <div class="donation-scanners-container">
 
                 <!-- LEFT CONTENT -->
-                <div class="donation-scanners-content">
+                <!-- <div class="donation-scanners-content">
                   <h2>Direct Deposit in to the bank account</h2>
 
                   <div class="donation-scanners-block">
@@ -394,11 +473,54 @@
                       <img src="images/sbi.webp" alt="SBI QR">
                     </div>
                   </div>
-                </div>
+                </div> -->
 
                 <!-- RIGHT IMAGES -->
 
 
+              </div>
+
+              <div class="qr-section">
+                <span class="qr-heading">Direct Deposit in to the bank account</span>
+                <div class="qr-grid">
+                  
+                  <div class="qr-card">
+                    <h3>Donation For Bal Bhojan & Bhandara</h3>
+                    <p><strong>Bank:</strong> Axis Bank, Ghatkopar (E), Mumbai</p>
+                    <p><strong>A/c No:</strong> 029010100244817</p>
+                    <p><strong>IFSC:</strong> UTIB0000029</p>
+                    <img src="images/axis-qr.webp" alt="QR Code Axis Bank">
+                    <!-- <p>Scan to Donate for Bal Bhojan and Bhandara</p> -->
+                  </div>
+
+                  <div class="qr-card">
+                    <h3>Donation For Samadhi Mandir</h3>
+                    <p><strong>Bank:</strong> Bank of Baroda, Ganeshpuri Branch</p>
+                    <p><strong>A/c No:</strong> 10640100002070</p>
+                    <p><strong>IFSC:</strong> BARB0GANESH</p>
+                    <img src="images/bob-qr.webp" alt="QR Code Bank of Baroda">
+                    <!-- <p>Scan to Donate for Samadhi Mandir</p> -->
+                  </div>
+
+                  <div class="qr-card">
+                    <h3>Donation For Annapurna</h3>
+                    <p><strong>Bank:</strong> Bank of Maharashtra, Ganeshpuri Branch</p>
+                    <p><strong>A/c No:</strong> 20207200564</p>
+                    <p><strong>IFSC:</strong> MAHB0000198</p>
+                    <img src="images/bom-qr.webp" alt="QR Code Bank of Maharashtra">
+                    <!-- <p>Scan to Donate for Annapurna</p> -->
+                  </div>
+
+                  <div class="qr-card">
+                    <h3>Donation For General Purpose</h3>
+                    <p><strong>Bank:</strong> State Bank of India, Virar (West)</p>
+                    <p><strong>A/c No:</strong> 44466497946</p>
+                    <p><strong>IFSC:</strong> SBIN0004880</p>
+                    <img src="images/sbi-qr.webp" alt="QR Code of State Bank of India">
+                    <!-- <p>Scan to Donate for General Purpose</p> -->
+                  </div>
+
+                </div>
               </div>
               <p>After depositing the amount kindly send the xerox of the bank slip with your name, your address, date and donation type to the below address OR email the details to <a href="mailto:bhagwan@nityanand.org">bhagwan@nityanand.org</a> so that we can send you the receipt of the same.</p>
               <p>
